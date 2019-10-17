@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <my-tree trees='{
+            "id": 1,
+            "items": [
+                {
+                    "id": 2,
+                    "items": [
+                        {"id": 3},
+                        {
+                            "id": 5,
+                            "items": [
+                                {"id": 6},
+                                {"id": 7}
+                            ]
+                        },
+                        {"id": 8}
+                    ]
+                },
+                {
+                    "id": 4
+                }
+            ]
+        }'>
+    </my-tree>
+    <script type="module">
+        import {LitElement, html, css} from 'https://unpkg.com/lit-element/lit-element.js?module';
+
+        class MyTreeElement extends LitElement {
+
+            static get properties() {
+                return {
+                    id: {type: String},
+                    trees: {type: Array}
+                }
+            }
+
+            static get styles() {
+                return css`
+                    :host {
+                      display: block;
+                      width: 100%;
+                      background: #cfcfcf;
+                    }
+                    div.node {
+                      padding: 20px;
+                    }
+                `;
+            }
+
+            render() {
+                this.trees = Array.isArray(this.trees) ? this.trees : [this.trees];
+                return html`<div class="node">Node#${this.id || 0}
+                    ${this.trees.map(tree => tree.items ?
+                        html`<my-tree id="${tree.id}" trees="${JSON.stringify(tree.items)}"></my-tree>` :
+                        html`<my-leaf id="${tree.id}"></my-leaf>`
+                )}
+                </div>`;
+            }
+        }
+
+        class MyLeafElement extends LitElement {
+
+            get properties() {
+                return {
+                    id: {type: String}
+                }
+            }
+
+            static get styles() {
+                return css`
+                    :host {
+                      display: block;
+                      width: 100%;
+                      background: #dfdfdf;
+                    }
+                    div.child {
+                        padding: 20px;
+                    }
+                `;
+            }
+
+            render() {
+                return html`<div class="child">child#${this.id}</div>`;
+            }
+        }
+
+        customElements.define('my-tree', MyTreeElement);
+        customElements.define('my-leaf', MyLeafElement);
+
+    </script>
+</body>
+</html>
