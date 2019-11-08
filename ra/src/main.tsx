@@ -1,8 +1,5 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import {Tick} from "./components/tick";
+import {App} from "./app";
 
-ReactDOM.render(
-    <Tick/>,
-    document.getElementById("root")
-);
+ReactDOM.render(<App/>, document.getElementById("root"));
