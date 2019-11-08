@@ -34,12 +34,11 @@ export class WeatherLayoutSearch extends Component<IProps, IState> {
         this.city = event.currentTarget.value;
     }
 
-    async handleSearch(input) {
+    async handleSearch() {
         if(this.city) {
             try {
                 const city = await this.api.getWeather(this.city);
                 this.city = '';
-                input.current.value = '';
                 this.setState({ city });
             } catch (err) {
                 console.log(err);

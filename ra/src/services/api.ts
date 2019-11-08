@@ -12,9 +12,13 @@ export class ApiService {
     async getWeather(city) {
         try {
             const response = await fetch(`${this.urlApi}weather?q=${city}&appid=${this.apiKey}`);
+            if (!response.ok) {
+                const err = await response.json();
+                throw new Error(err.message);
+            }
             return await response.json();
         } catch (e) {
-            console.log(e);
+            alert(e);
         }
     }
 
