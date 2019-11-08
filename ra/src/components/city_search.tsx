@@ -1,8 +1,7 @@
 import React, {Component, LegacyRef} from 'react';
 
 interface IProps {
-    changeInput: (e) => void;
-    onSearch: () => void;
+    onSearch: (city) => void;
 }
 
 interface IState {
@@ -31,17 +30,16 @@ export class CitySearch extends Component<IProps, IState> {
                 this.setState({isSearch: false});
             }
         });
-        this.props.changeInput(event);
     }
 
     handleSearch() {
         if (this.state.isSearch) {
+            this.props.onSearch(this.state.value);
             this.setState({
                 isSearch: false,
                 value: ''
             });
         }
-        this.props.onSearch();
     }
 
     render() {
