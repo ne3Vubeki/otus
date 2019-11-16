@@ -16,7 +16,6 @@ interface IState {
 
 export class WeatherLayoutSearch extends Component<IProps, IState> {
 
-    city: string;
     api: any;
 
     constructor(props: IProps) {
@@ -25,21 +24,14 @@ export class WeatherLayoutSearch extends Component<IProps, IState> {
             city: undefined
         };
         this.api = new ApiService();
-        this.handleInput = this.handleInput.bind(this);
         this.handleSearch = this.handleSearch.bind(this);
         this.handleAdd = this.handleAdd.bind(this);
     }
 
-    handleInput(event: React.FormEvent<HTMLInputElement>) {
-        this.city = event.currentTarget.value;
-    }
-
-    async handleSearch(input) {
-        if(this.city) {
+    async handleSearch(citySearch) {
+        if(citySearch) {
             try {
-                const city = await this.api.getWeather(this.city);
-                this.city = '';
-                input.current.value = '';
+                const city = await this.api.getWeather(citySearch);
                 this.setState({ city });
             } catch (err) {
                 console.log(err);
@@ -58,7 +50,7 @@ export class WeatherLayoutSearch extends Component<IProps, IState> {
         const city: any = this.state.city || this.props.children;
         const isInCities = !!city ? this.props.cities.some(item => item.id === city.id) : false;
         return <div style={{ width: "70%", float: "left" }}>
-            <CitySearch changeInput={this.handleInput} onSearch={this.handleSearch} />
+            <CitySearch onSearch={this.handleSearch} />
             { city ? <WeatherCityFull onAdd={this.handleAdd} isInCities={isInCities}>{city}</WeatherCityFull> : null }
         </div>
     }
