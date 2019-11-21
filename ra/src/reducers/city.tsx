@@ -5,7 +5,6 @@ export default (state = {}, action) => {
             case C.ADD_CITY:
             case C.RECEIVED_CITY:
             case C.SELECT_CITY:
-            case C.SEARCH_CITY:
                 return {
                     id: action.id,
                     name: action.name,

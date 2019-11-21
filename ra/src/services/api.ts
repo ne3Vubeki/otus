@@ -12,7 +12,7 @@ export class ApiService {
         this.getCities = this.getCities.bind(this);
     }
 
-    private async request(city) {
+    private async request(city, dispatch) {
         try {
             const response = await fetch(`${this.urlApi}weather?q=${city}&appid=${this.apiKey}`);
             if (!response.ok) {
@@ -21,14 +21,19 @@ export class ApiService {
             }
             return await response.json();
         } catch (err) {
-            alert(err);
+            dispatch(actions.errorCity(err.message));
         }
     }
 
     getCity(city) {
         return (dispatch) => {
-            return this.request(city).then(json => {
-                json ? dispatch(actions.receivedCity(json)) : null;
+            dispatch(actions.clearCity());
+            dispatch(actions.searchCity(city));
+            return this.request(city, dispatch).then(json => {
+                if(json) {
+                    dispatch(actions.validCity());
+                    dispatch(actions.receivedCity(json));
+                }
             });
         }
     }
@@ -36,7 +41,7 @@ export class ApiService {
     getCities(cities: string[] = ['Moscow', 'Ryazan', 'Voronezh']) {
         return (dispatch) => {
             let responses: Promise<any>[] = [];
-            cities.map(async city => responses.push(this.request(city)));
+            cities.map(async city => responses.push(this.request(city, dispatch)));
             return Promise.all(responses)
                 .then(cities => {
                     cities && cities.length ? dispatch(actions.initCities(cities)) : null;

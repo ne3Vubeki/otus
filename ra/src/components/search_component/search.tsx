@@ -1,24 +1,21 @@
 import React, {Component} from 'react';
-import {actions} from "../actions/actions";
-import {connect} from 'react-redux'
-import {ApiService} from "../services/api";
-
-const api = new ApiService();
+import {Link} from "react-router-dom";
 
 interface IProps {
     status: any;
-    onSearch: (event) => {};
+    onSearch: (search) => {};
     onInput: (event) => {};
 }
 
-class CitySearch extends Component<IProps>{
+export class CitySearch extends Component<IProps> {
 
     value: string;
 
     constructor(props: IProps) {
         super(props);
         this.handleInput = this.handleInput.bind(this);
-        this.handleSearch = this.handleSearch.bind(this);
+        this.click = this.click.bind(this);
+        this.value = '';
     }
 
     handleInput(event) {
@@ -26,9 +23,12 @@ class CitySearch extends Component<IProps>{
         this.props.onInput(!!this.value);
     }
 
-    handleSearch() {
-        this.props.onSearch(this.value);
-        this.props.onInput(false);
+    click(event) {
+        if(!this.props.status.isSearch) {
+            event.preventDefault();
+        } else {
+            this.props.onInput(false);
+        }
     }
 
     render() {
@@ -43,27 +43,17 @@ class CitySearch extends Component<IProps>{
                         fontSize: "22px",
                         padding: "3px 10px 4px"
                     }}/>
-                    <button style={{
-                        verticalAlign: "middle",
-                        fontSize: "22px",
-                        padding: "4px 10px 6px"
-                    }} onClick={this.handleSearch} disabled={!this.props.status.isSearch}>Search
-                    </button>
+                    <Link to={this.value}
+                          onClick={this.click}
+                          style={{
+                            verticalAlign: "middle",
+                            fontSize: "22px",
+                            padding: "4px 10px 6px"
+                        }}>Search
+                    </Link>
                 </h2>
             </div>
         </div>;
     }
 
 }
-
-export const Search = connect(
-    state =>
-        ({
-            status: state.status
-        }),
-    {
-        onSearch: (city) => api.getCity(city),
-        onInput: (isSearch) => (dispatch) => dispatch(actions.showSearch(isSearch))
-    }
-)(CitySearch);
-

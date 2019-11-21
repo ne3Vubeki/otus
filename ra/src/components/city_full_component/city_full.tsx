@@ -1,19 +1,22 @@
 import React from 'react';
-import {connect} from 'react-redux'
-import {actions} from "../actions/actions";
 
-const WeatherCityFull = ({match, city, isInCities, onAdd }) => {
+export const WeatherCityFull = ({city, newSearch, oldSearch, cities, status, isInCities, onAdd, onSelect, onSearch }) => {
 
-    const ABS_NULL = 273.15;
-    const temp_min = Math.round(city.temp_min - ABS_NULL);
-    const temp_max = Math.round(city.temp_max - ABS_NULL);
-
+    const add = () => onAdd(city);
+    const stateCity = city.name ? city.name.toLowerCase() : '';
+    if(newSearch && newSearch.toLowerCase() !== stateCity && newSearch !== oldSearch) {
+        const town = cities.filter(item => item.name.toLowerCase() === newSearch.toLowerCase());
+        town.length ? onSelect(town[0]) : onSearch(newSearch);
+    }
     if(city.id) {
+        const ABS_NULL = 273.15;
+        const temp_min = Math.round(city.temp_min - ABS_NULL);
+        const temp_max = Math.round(city.temp_max - ABS_NULL);
         return <div style={{padding: "20px"}}>
             <div style={{background: "#cfcfcf", padding: "20px"}}>
                 <h3>
                     {city.name}
-                    <button style={{float: "right"}} onClick={() => onAdd(city)} disabled={isInCities}>
+                    <button style={{float: "right"}} onClick={add} disabled={isInCities}>
                         +
                     </button>
                 </h3>
@@ -32,21 +35,8 @@ const WeatherCityFull = ({match, city, isInCities, onAdd }) => {
                 </div>
             </div>
         </div>
+    } else if(status.isError) {
+        return <div style={{margin: "40px", color: "red"}}>{status.isError}</div>
     }
     return null;
 };
-
-export const Result = connect(
-    (state) =>
-        ({
-            city: state.city,
-            isInCities: state.cities.some(city => city.id === state.city.id)
-        }),
-    dispatch =>
-        ({
-            onAdd(city) {
-                dispatch(actions.addCity(city));
-                dispatch(actions.clearCity());
-            }
-        })
-)(WeatherCityFull);

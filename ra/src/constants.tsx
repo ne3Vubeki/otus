@@ -7,6 +7,8 @@ const C = {
     RECEIVED_CITY: 'RECEIVED_CITY',
     INIT_CITIES: 'INIT_CITIES',
     SHOW_SEARCH: 'SHOW_SEARCH',
+    ERROR_CITY: 'ERROR_CITY',
+    VALID_CITY: 'VALID_CITY',
 };
 
 export { C };
