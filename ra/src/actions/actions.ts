@@ -9,12 +9,10 @@ const add = city => ({
     temp: city.main.temp,
     temp_min: city.main.temp_min,
     temp_max: city.main.temp_max,
-    timestamp: new Date().toString()
 });
 
 const select = city => ({
     ...city,
-    timestamp: new Date().toString()
 });
 
 export const actions = {
@@ -23,10 +21,10 @@ export const actions = {
             type: C.ADD_CITY,
             ...select(city)
         }),
-    searchCity: city =>
+    searchCity: search =>
         ({
             type: C.SEARCH_CITY,
-            ...add(city)
+            search: search
         }),
     selectCity: city =>
         ({
@@ -37,29 +35,35 @@ export const actions = {
         ({
             type: C.REMOVE_CITY,
             id: city.id,
-            timestamp: new Date().toString()
         }),
     clearCity: () =>
         ({
             type: C.CLEAR_CITY,
-            timestamp: new Date().toString()
+            isError: false
         }),
     receivedCity: (city) =>
         ({
             type: C.RECEIVED_CITY,
-            loading: false,
             ...add(city)
         }),
     initCities: (cities) =>
         ({
             type: C.INIT_CITIES,
-            cities: cities.map(city => actions.searchCity(city)),
-            timestamp: new Date().toString()
+            cities: cities.map(city => actions.receivedCity(city)),
         }),
     showSearch: (is) =>
         ({
             type: C.SHOW_SEARCH,
             isSearch: is,
-            timestamp: new Date().toString()
+        }),
+    validCity: () =>
+        ({
+            type: C.VALID_CITY,
+            isError: '',
+        }),
+    errorCity: (err) =>
+        ({
+            type: C.ERROR_CITY,
+            isError: err,
         })
 };

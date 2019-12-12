@@ -3,12 +3,12 @@ import {Provider} from 'react-redux'
 import {combineReducers, createStore, applyMiddleware} from "redux";
 import thunk from 'redux-thunk'
 import { logger } from 'redux-logger'
-import {cities, city, status} from "./reducers";
-import {Weather} from "./containers/weather";
+import {cities, city, status, search} from "./reducers";
+import Weather from './components/weather_component'
 
 
 const store = createStore(
-    combineReducers({city, cities, status}),
+    combineReducers({city, cities, status, search}),
     applyMiddleware(thunk, logger)
 );
 

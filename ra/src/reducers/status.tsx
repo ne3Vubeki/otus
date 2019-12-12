@@ -6,6 +6,10 @@ export default (state = {}, action) => {
                 return {
                     isSearch: action.isSearch
                 };
+            case C.ERROR_CITY:
+                return {
+                    isError: action.isError
+                };
             default:
                 return state;
         }
