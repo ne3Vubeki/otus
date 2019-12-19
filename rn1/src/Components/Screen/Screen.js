@@ -1,4 +1,4 @@
-import React, {useRef} from 'react';
+import React, {useRef, useEffect} from 'react';
 import {
     KeyboardAvoidingView,
     SafeAreaView,
@@ -8,7 +8,7 @@ import {Button, Input, ListItem} from 'react-native-elements';
 import {Item} from '../Item/Item';
 import {Filter} from '../Filter/Filter';
 
-export const Screen = ({guests, status, addGuest, changeGuest, removeGuest, filterStatus}) => {
+export const Screen = ({guests, status, addGuest, changeGuest, removeGuest, filterStatus, fetchDatabase}) => {
     let name = '';
     const filter = guests.filter(item => {
         switch (status) {
@@ -31,6 +31,9 @@ export const Screen = ({guests, status, addGuest, changeGuest, removeGuest, filt
             _input.current.clear();
         }
     };
+    useEffect(() => {
+        fetchDatabase();
+    }, []);
     return (
         <SafeAreaView>
             <KeyboardAvoidingView behavior='position'>

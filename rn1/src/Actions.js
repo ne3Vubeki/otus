@@ -1,35 +1,42 @@
+import {ADD_GUEST, REMOVE_GUEST, CHANGE_GUEST, FILTER_STATUS, FETCH_GUESTS} from './Types';
+
+
 const add = guest => ({
-    id: new Date().getTime(),
+    id: guest.id,
     name: guest.name,
     pair: guest.pair,
-    open: false
+    path: guest.path,
+    open: false,
 });
 
 export const actions = {
     addGuest: guest =>
         ({
-            type: 'ADD_GUEST',
-            ...add(guest)
+            type: ADD_GUEST,
+            ...add(guest),
         }),
     removeGuest: id =>
         ({
-            type: 'REMOVE_GUEST',
+            type: REMOVE_GUEST,
             id: id,
         }),
     changeGuest: guest =>
         ({
-            type: 'CHANGE_GUEST',
+            type: CHANGE_GUEST,
             ...guest,
-        }),
-    filterGuest: (guests, status) =>
-        ({
-            type: 'FILTER_GUEST',
-            status: status,
-            guests: [...guests]
         }),
     filterStatus: (status) =>
         ({
-            type: 'FILTER_STATUS',
+            type: FILTER_STATUS,
             status: status,
-        })
+        }),
+    fetchDatabase: (values) =>
+        ({
+            type: FETCH_GUESTS,
+            list: Object.keys(values).map((item) =>
+                ({
+                    ...add(values[item]),
+                }),
+            ),
+        }),
 };

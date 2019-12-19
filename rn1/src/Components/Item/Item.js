@@ -7,9 +7,9 @@ export const Item = ({guest, removeGuest, changeGuest}) => {
     const handleInput = useCallback((text) => guest.name = text, [guest]);
     const handleChange = useCallback(() => {
         guest.open = !guest.open;
-        guest.name ? changeGuest(guest) : removeGuest(guest.id);
+        guest.name ? changeGuest(guest) : removeGuest(guest.path);
     }, [guest]);
-    const handleRemove = useCallback(() => removeGuest(guest.id), [guest]);
+    const handleRemove = useCallback(() => removeGuest(guest.path), [guest]);
     const handleCheck = useCallback(() => changeGuest({...guest, pair: !guest.pair}), [guest]);
     const changeView = useCallback(() => {
         guest.open = !guest.open;
