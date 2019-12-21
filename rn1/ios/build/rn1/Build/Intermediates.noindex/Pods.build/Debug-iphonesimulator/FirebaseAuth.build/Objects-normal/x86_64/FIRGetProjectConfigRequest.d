@@ -1,0 +1,6 @@
+dependencies: \
+  /Users/freshbook/Work/otus/rn1/ios/Pods/FirebaseAuth/Firebase/Auth/Source/Backend/RPC/FIRGetProjectConfigRequest.m \
+  /Users/freshbook/Work/otus/rn1/ios/Pods/FirebaseAuth/Firebase/Auth/Source/Backend/RPC/FIRGetProjectConfigRequest.h \
+  /Users/freshbook/Work/otus/rn1/ios/Pods/FirebaseAuth/Firebase/Auth/Source/Backend/FIRIdentityToolkitRequest.h \
+  /Users/freshbook/Work/otus/rn1/ios/Pods/FirebaseAuth/Firebase/Auth/Source/Backend/FIRAuthRequestConfiguration.h \
+  /Users/freshbook/Work/otus/rn1/ios/Pods/FirebaseAuth/Firebase/Auth/Source/Backend/FIRAuthRPCRequest.h

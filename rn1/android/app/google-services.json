@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "75178303132",
+    "firebase_url": "https://rnative1-fff2b.firebaseio.com",
+    "project_id": "rnative1-fff2b",
+    "storage_bucket": "rnative1-fff2b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:75178303132:android:4aca0d0afeee687bc59759",
+        "android_client_info": {
+          "package_name": "com.rn1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "75178303132-icgg9t3t5vupff532bpbn3sa5lgr1aqo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3b8p3wKJVtmurO704jRaVWi_Z_JgrqqY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "75178303132-icgg9t3t5vupff532bpbn3sa5lgr1aqo.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "75178303132-skcqua7lldahgi8cogce4i1d8fuhi7us.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.rn1"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

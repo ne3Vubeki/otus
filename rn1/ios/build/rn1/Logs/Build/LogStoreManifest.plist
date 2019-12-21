@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>A0A3483C-9E98-466E-88FD-058577107B30</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A0A3483C-9E98-466E-88FD-058577107B30.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>rn1 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>rn1</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace rn1 with scheme rn1 and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>598380254.66410601</real>
+			<key>timeStoppedRecording</key>
+			<real>598380258.02592504</real>
+			<key>title</key>
+			<string>Building workspace rn1 with scheme rn1 and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>A0A3483C-9E98-466E-88FD-058577107B30</string>
+		</dict>
+		<key>B526C43D-020F-4F9B-8617-0206CE6F8EFE</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B526C43D-020F-4F9B-8617-0206CE6F8EFE.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>rn1 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>rn1</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace rn1 with scheme rn1 and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>598464430.85009003</real>
+			<key>timeStoppedRecording</key>
+			<real>598464435.11840701</real>
+			<key>title</key>
+			<string>Building workspace rn1 with scheme rn1 and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>B526C43D-020F-4F9B-8617-0206CE6F8EFE</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
