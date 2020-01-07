@@ -10,11 +10,11 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.nib/objects-13.0+.nib</key>
 		<data>
-		YSnTSw8J5oIwvReiZCvM9snYo4Q=
+		vrHDnA/RlDP3Z705FbVHe28foDQ=
 		</data>
 		<key>Base.lproj/LaunchScreen.nib/runtime.nib</key>
 		<data>
-		GClx4FqIdfnfSPc5mpbuBC6wf1c=
+		e3NZdTy7qQpf2QB+F1EuhE+J9mU=
 		</data>
 		<key>Entypo.ttf</key>
 		<data>
@@ -135,7 +135,7 @@
 		</data>
 		<key>PlugIns/rn1Tests.xctest.dSYM/Contents/Resources/DWARF/rn1Tests</key>
 		<data>
-		ObyPDDQzq0GRHmo1/qGy6FCKJ54=
+		i/Nt+5opXQ/G5dkebNhFeL+UOGc=
 		</data>
 		<key>PlugIns/rn1Tests.xctest/Info.plist</key>
 		<data>
@@ -147,7 +147,7 @@
 		</data>
 		<key>PlugIns/rn1Tests.xctest/rn1Tests</key>
 		<data>
-		aQdVlUeXdSdjBlQy6M1NmECwu1g=
+		eqnf7f3cibmuTjiv+RVnJLyR7i4=
 		</data>
 		<key>SimpleLineIcons.ttf</key>
 		<data>
@@ -175,22 +175,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YSnTSw8J5oIwvReiZCvM9snYo4Q=
+			vrHDnA/RlDP3Z705FbVHe28foDQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			JjQ+LUehrIBKzehXKDGTcInBt2n6yMrJcm0uyS6PzhM=
+			4Eq67q3D1mLW58EFlZ/ZvwuIaYDVlH361WkBdiwgAbY=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GClx4FqIdfnfSPc5mpbuBC6wf1c=
+			e3NZdTy7qQpf2QB+F1EuhE+J9mU=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q1mlNBQ6yZWgchcPZ0S9FimcxoOzp7ZKrYBbHtgj9uY=
+			5mkdUH2rDqQ+4FBd/GHYAs6fpGrl6xIdLe34+ofQA+I=
 			</data>
 		</dict>
 		<key>Entypo.ttf</key>
@@ -485,11 +485,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ObyPDDQzq0GRHmo1/qGy6FCKJ54=
+			i/Nt+5opXQ/G5dkebNhFeL+UOGc=
 			</data>
 			<key>hash2</key>
 			<data>
-			HDxJMz6Dz8eK69fFydJX4NXfCVEwvsym7DM//F/C7l8=
+			JGDEQ7BgnUl/x7Lpf1b7+P31iCW5h5ezraPaMpTRAaI=
 			</data>
 		</dict>
 		<key>PlugIns/rn1Tests.xctest/Info.plist</key>
@@ -518,11 +518,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aQdVlUeXdSdjBlQy6M1NmECwu1g=
+			eqnf7f3cibmuTjiv+RVnJLyR7i4=
 			</data>
 			<key>hash2</key>
 			<data>
-			fC2GjCpMyNKJPd0v6Fp9u0AcXAFNUc1Pvlo4A3YQUy8=
+			NHk1ws384lwAaAB6OJrvVWuiZcYg1LqLMX2djivbISo=
 			</data>
 		</dict>
 		<key>SimpleLineIcons.ttf</key>
