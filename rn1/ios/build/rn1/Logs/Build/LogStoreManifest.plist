@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>5A70F163-ECB2-44E1-908C-2EEF1C6197AB</key>
+		<key>ACE746FD-421A-4723-9535-0E90390CED63</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>5A70F163-ECB2-44E1-908C-2EEF1C6197AB.xcactivitylog</string>
+			<string>ACE746FD-421A-4723-9535-0E90390CED63.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,15 +32,15 @@
 			<key>signature</key>
 			<string>Building workspace rn1 with scheme rn1 and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>600115818.46190596</real>
+			<real>600280338.53149605</real>
 			<key>timeStoppedRecording</key>
-			<real>600115823.28216004</real>
+			<real>600280342.46566105</real>
 			<key>title</key>
 			<string>Building workspace rn1 with scheme rn1 and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>5A70F163-ECB2-44E1-908C-2EEF1C6197AB</string>
+			<string>ACE746FD-421A-4723-9535-0E90390CED63</string>
 		</dict>
-		<key>66D17AB2-7582-4EF5-AEC8-54027917DCBC</key>
+		<key>EA6E6F0C-2A1A-45AA-9E28-3C62D4AE6FA6</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -49,7 +49,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>66D17AB2-7582-4EF5-AEC8-54027917DCBC.xcactivitylog</string>
+			<string>EA6E6F0C-2A1A-45AA-9E28-3C62D4AE6FA6.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -66,13 +66,13 @@
 			<key>signature</key>
 			<string>Building workspace rn1 with scheme rn1 and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>600119691.18625605</real>
+			<real>600282922.91395795</real>
 			<key>timeStoppedRecording</key>
-			<real>600119694.39912403</real>
+			<real>600282926.32395804</real>
 			<key>title</key>
 			<string>Building workspace rn1 with scheme rn1 and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>66D17AB2-7582-4EF5-AEC8-54027917DCBC</string>
+			<string>EA6E6F0C-2A1A-45AA-9E28-3C62D4AE6FA6</string>
 		</dict>
 	</dict>
 </dict>

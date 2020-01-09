@@ -2,7 +2,7 @@ import React, {useCallback} from 'react';
 import {Button, CheckBox, Input, Text, ListItem} from 'react-native-elements';
 import {StyleSheet, View} from 'react-native';
 
-export const Item = ({guest, removeGuest, changeGuest}) => {
+export const Item = ({guest, navigation, removeGuest, changeGuest}) => {
 
     const handleInput = useCallback((text) => guest.name = text, [guest]);
     const handleChange = useCallback(() => {
@@ -15,11 +15,13 @@ export const Item = ({guest, removeGuest, changeGuest}) => {
         guest.open = !guest.open;
         changeGuest(guest);
     }, [guest]);
+    const handlePress = useCallback(() => navigation.navigate('Detail', { guest: guest }), [guest]);
 
     return (
         <>
             {
                 <ListItem onLongPress={changeView}
+                          onPress={handlePress}
                           title={
                               <View style={styles.inline}>
                                   {
