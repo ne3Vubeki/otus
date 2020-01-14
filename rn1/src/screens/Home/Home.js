@@ -38,7 +38,7 @@ export const Home = ({navigation, guests, status, addGuest, changeGuest, removeG
 
     return (
         <SafeAreaView>
-            <KeyboardAvoidingView behavior='position'>
+            <KeyboardAvoidingView>
                 <ScrollView keyboardShouldPersistTaps='always'>
                     <ListItem
                         title={

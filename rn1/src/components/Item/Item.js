@@ -15,10 +15,10 @@ export const Item = ({guest, navigation, removeGuest, changeGuest}) => {
     const handleInput = useCallback((text) => guest.name = text, [guest]);
     const handleChange = useCallback(() => {
         guest.open = !guest.open;
-        guest.name ? changeGuest(guest) : removeGuest(guest.path);
+        guest.name ? changeGuest(guest) : removeGuest(guest);
     }, [guest]);
     const handleRemove = useCallback(() => {
-        removeGuest(guest.path);
+        removeGuest(guest);
         // Animated.sequence(animation).start(fn);
     }, [guest]);
     const handleCheck = useCallback(() => changeGuest({...guest, pair: !guest.pair}), [guest]);

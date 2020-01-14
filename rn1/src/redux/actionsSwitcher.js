@@ -25,7 +25,7 @@ export const addGuest = (guest) => async (dispatch) => {
             type: ADD_GUEST,
             guest: newGuest
         });
-        dispatch(actions.addGuest(guest));
+        dispatch(actions.addGuest(newGuest));
     }
 };
 
@@ -48,23 +48,20 @@ const updateGuestBase = (guest) => {
     child.set(newGuest);
 };
 
-export const removeGuest = (path) => async (dispatch) => {
-    console.log('netState', netState);
+export const removeGuest = (guest) => async (dispatch) => {
     if(netState.isConnected) {
-        console.log('isRemove===================');
-        removeGuestBase(path);
+        removeGuestBase(guest.path);
     } else {
         await setStoreActions({
             type: REMOVE_GUEST,
-            path
+            path: guest.path
         });
-        dispatch(actions.removeGuest(path))
+        dispatch(actions.removeGuest(guest.id))
     }
 };
 
 const removeGuestBase = (path) => {
     const child = ref.child(path);
-    console.log(path, child);
     child.remove();
 };
 
@@ -93,7 +90,6 @@ export const fetchDatabase = () => async (dispatch) => {
         }
     });
     netState = await NetInfo.fetch();
-    console.log('Internet', netState.isConnected);
     if(!netState.isConnected) {
         const guests = await getStoreGuests();
         const filter = await getStoreFilter();
@@ -112,7 +108,6 @@ export const fetchDatabase = () => async (dispatch) => {
     });
 
     ref.on('child_removed', (newValue) => {
-        console.log('Remove', newValue.val());
         dispatch(actions.removeGuest(newValue.val().id));
     });
 };
