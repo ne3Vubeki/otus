@@ -1,10 +1,11 @@
 import {ADD_GUEST, CHANGE_GUEST, FETCH_GUESTS, FILTER_STATUS, REMOVE_GUEST} from './types';
 
-const add = ({ id, name, pair, path }) => ({
-    id: id,
-    name: name,
-    pair: pair,
-    path: path,
+const add = ({ id, name, pair, path, comment }) => ({
+    id,
+    name,
+    pair,
+    path,
+    comment,
     open: false,
 });
 

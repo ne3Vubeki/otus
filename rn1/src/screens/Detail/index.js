@@ -1,11 +1,10 @@
 import {Detail} from './Detail';
 import {connect} from 'react-redux';
-import {actions} from '../../redux/actions';
+import {changeGuest} from '../../redux/actionsSwitcher';
 
 export default connect(
-    state =>
-        null,
+    null,
     {
-        changeGuest: (guest) => actions.changeGuest(guest),
+        changeGuest,
     }
 )(Detail);

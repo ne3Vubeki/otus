@@ -1,42 +1,45 @@
-import React, {Component} from 'react';
+import React, {Component, useState} from 'react';
 import {KeyboardAvoidingView, SafeAreaView, ScrollView, StyleSheet, TextInput, View} from 'react-native';
 import {Button} from 'react-native-elements';
 
 interface IProps {
-    guest: any;
-    changeGuest: (comment) => {}
+    navigation: any;
+    changeGuest: (quest) => {};
 }
 
 export class Detail extends Component<IProps> {
 
-    static navigationOptions = {
-        headerTitle: this.guest.name,
+    static navigationOptions = ({ navigation }) => {
+        return {
+            headerTitle: navigation.getParam('guest').name,
+        }
     };
 
+    guest: any;
     comment: string;
-    isSaved: boolean;
 
     constructor(props: IProps) {
         super(props);
+        this.state = {
+            isChange: false
+        };
+        this.guest = this.props.navigation.getParam('guest');
         this.comment = this.guest.comment;
-        this.isSaved = true;
-        this.handleChange.bind(this);
-        this.handleSave.bind(this);
-    }
-
-    static guest() {
-        return this.props.navigation.getParam('guest');
+        this.handleChange = this.handleChange.bind(this);
+        this.handleSave = this.handleSave.bind(this);
     }
 
     handleChange(text) {
         this.comment = text;
-        this.isSaved = false;
+        this.setState({isChange: true});
     }
 
     handleSave() {
-        this.guest.comment = this.comment;
-        this.props.changeGuest(this.guest);
-        this.isSaved = true;
+        if(this.guest.comment !== this.comment) {
+            this.guest.comment = this.comment;
+            this.props.changeGuest(this.guest);
+            this.setState({isChange: false});
+        }
     }
 
     render() {
@@ -56,8 +59,8 @@ export class Detail extends Component<IProps> {
                                 onChangeText={this.handleChange}
                             />
                             <Button style={styles.button}
-                                    disabled={this.isSaved}
                                     title="Save Comment"
+                                    disabled={!this.state.isChange}
                                     onPress={this.handleSave}/>
                         </View>
                     </ScrollView>
@@ -72,12 +75,12 @@ const styles = StyleSheet.create({
         marginTop: 10,
     },
     textAreaContainer: {
-        borderColor: 'gray',
-        borderWidth: 1,
-        padding: 5
+        padding: 10,
     },
     textArea: {
-        height: 150,
-        justifyContent: "flex-start"
+        borderColor: 'gray',
+        borderWidth: 1,
+        padding: 10,
+        height: 150
     }
 });
