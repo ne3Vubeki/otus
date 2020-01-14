@@ -4,22 +4,22 @@ import {Animated, StyleSheet, View} from 'react-native';
 
 export const Item = ({guest, navigation, removeGuest, changeGuest}) => {
 
-    // const [scale] = useState(new Animated.Value(1));
-    // const animation = [
-    //     Animated.timing(scale, {
-    //         toValue: 0,
-    //         useNativeDriver: true,
-    //         duration: 300
-    //     })
-    // ];
+    const [scale] = useState(new Animated.Value(1));
+    const animation = [
+        Animated.timing(scale, {
+            toValue: 0,
+            useNativeDriver: true,
+            duration: 400
+        }),
+    ];
     const handleInput = useCallback((text) => guest.name = text, [guest]);
     const handleChange = useCallback(() => {
         guest.open = !guest.open;
         guest.name ? changeGuest(guest) : removeGuest(guest);
     }, [guest]);
     const handleRemove = useCallback(() => {
-        removeGuest(guest);
-        // Animated.sequence(animation).start(fn);
+        const fn = () => removeGuest(guest);
+        Animated.sequence(animation).start(fn);
     }, [guest]);
     const handleCheck = useCallback(() => changeGuest({...guest, pair: !guest.pair}), [guest]);
     const changeView = useCallback(() => {
@@ -29,7 +29,7 @@ export const Item = ({guest, navigation, removeGuest, changeGuest}) => {
     const handlePress = useCallback(() => navigation.navigate('Detail', { guest: guest }), [guest]);
 
     return (
-        <>
+        <Animated.View style={{transform: [{ scale }]}}>
             {
                 <ListItem onLongPress={changeView}
                           onPress={handlePress}
@@ -61,7 +61,7 @@ export const Item = ({guest, navigation, removeGuest, changeGuest}) => {
                           bottomDivider
                 />
             }
-        </>
+        </Animated.View>
     );
 };
 

@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>B4A5A7DC-7FC7-41CC-8804-51EC00B44BE9</key>
+		<key>AFD325E7-76F5-4E3D-A1B4-6FE5A75CEF5B</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>B4A5A7DC-7FC7-41CC-8804-51EC00B44BE9.xcactivitylog</string>
+			<string>AFD325E7-76F5-4E3D-A1B4-6FE5A75CEF5B.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,47 +32,13 @@
 			<key>signature</key>
 			<string>Building workspace rn1 with scheme rn1 and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>600690393.99725795</real>
+			<real>600709454.54883099</real>
 			<key>timeStoppedRecording</key>
-			<real>600690398.23717403</real>
+			<real>600709458.60639799</real>
 			<key>title</key>
 			<string>Building workspace rn1 with scheme rn1 and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>B4A5A7DC-7FC7-41CC-8804-51EC00B44BE9</string>
-		</dict>
-		<key>DD46AD9C-DC71-4289-A758-CA8597AEE0E6</key>
-		<dict>
-			<key>className</key>
-			<string>IDECommandLineBuildLog</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>DD46AD9C-DC71-4289-A758-CA8597AEE0E6.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>rn1 project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>rn1</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Building workspace rn1 with scheme rn1 and configuration Debug</string>
-			<key>timeStartedRecording</key>
-			<real>600690063.11020195</real>
-			<key>timeStoppedRecording</key>
-			<real>600690068.611709</real>
-			<key>title</key>
-			<string>Building workspace rn1 with scheme rn1 and configuration Debug</string>
-			<key>uniqueIdentifier</key>
-			<string>DD46AD9C-DC71-4289-A758-CA8597AEE0E6</string>
+			<string>AFD325E7-76F5-4E3D-A1B4-6FE5A75CEF5B</string>
 		</dict>
 	</dict>
 </dict>

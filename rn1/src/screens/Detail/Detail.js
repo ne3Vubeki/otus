@@ -1,4 +1,4 @@
-import React, {Component, useState} from 'react';
+import React, {Component} from 'react';
 import {KeyboardAvoidingView, SafeAreaView, ScrollView, StyleSheet, TextInput, View} from 'react-native';
 import {Button} from 'react-native-elements';
 
