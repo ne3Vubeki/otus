@@ -1,21 +1,5 @@
 import AsyncStorage from '@react-native-community/async-storage';
-import {STORE_ACTIONS_KEY, STORE_FILTER_STATUS_KEY, STORE_GUESTS_KEY} from '../constants/constants';
-
-export const getStoreGuests = async () => {
-    try {
-        return JSON.parse(await AsyncStorage.getItem(STORE_GUESTS_KEY));
-    } catch (e) {
-        console.log(e);
-    }
-};
-
-export const getStoreFilter = async () => {
-    try {
-        return await AsyncStorage.getItem(STORE_FILTER_STATUS_KEY);
-    } catch (e) {
-        console.log(e);
-    }
-};
+import {STORE_ACTIONS_KEY} from '../constants/constants';
 
 export const setStoreActions = async (action) => {
     try {
