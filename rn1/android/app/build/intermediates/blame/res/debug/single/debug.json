@@ -149,7 +149,7 @@
     },
     {
         "merged": "/Users/freshbook/Work/otus/rn1/android/app/build/intermediates/res/merged/debug/layout_redbox_view.xml.flat",
-        "source": "/Users/freshbook/.gradle/caches/transforms-2/files-2.1/74ea7c0095caee939e6f364593ac5d70/res/layout/redbox_view.xml"
+        "source": "/Users/freshbook/.gradle/caches/transforms-2/files-2.1/4ed0b9bb41db51797e8135ac3de1fd5d/res/layout/redbox_view.xml"
     },
     {
         "merged": "/Users/freshbook/Work/otus/rn1/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -245,7 +245,7 @@
     },
     {
         "merged": "/Users/freshbook/Work/otus/rn1/android/app/build/intermediates/res/merged/debug/anim_catalyst_push_up_out.xml.flat",
-        "source": "/Users/freshbook/.gradle/caches/transforms-2/files-2.1/74ea7c0095caee939e6f364593ac5d70/res/anim/catalyst_push_up_out.xml"
+        "source": "/Users/freshbook/.gradle/caches/transforms-2/files-2.1/4ed0b9bb41db51797e8135ac3de1fd5d/res/anim/catalyst_push_up_out.xml"
     },
     {
         "merged": "/Users/freshbook/Work/otus/rn1/android/app/build/intermediates/res/merged/debug/layout-v21_notification_action_tombstone.xml.flat",
@@ -521,7 +521,7 @@
     },
     {
         "merged": "/Users/freshbook/Work/otus/rn1/android/app/build/intermediates/res/merged/debug/anim_catalyst_fade_out.xml.flat",
-        "source": "/Users/freshbook/.gradle/caches/transforms-2/files-2.1/74ea7c0095caee939e6f364593ac5d70/res/anim/catalyst_fade_out.xml"
+        "source": "/Users/freshbook/.gradle/caches/transforms-2/files-2.1/4ed0b9bb41db51797e8135ac3de1fd5d/res/anim/catalyst_fade_out.xml"
     },
     {
         "merged": "/Users/freshbook/Work/otus/rn1/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_black_16dp.png.flat",
@@ -733,7 +733,7 @@
     },
     {
         "merged": "/Users/freshbook/Work/otus/rn1/android/app/build/intermediates/res/merged/debug/layout_redbox_item_frame.xml.flat",
-        "source": "/Users/freshbook/.gradle/caches/transforms-2/files-2.1/74ea7c0095caee939e6f364593ac5d70/res/layout/redbox_item_frame.xml"
+        "source": "/Users/freshbook/.gradle/caches/transforms-2/files-2.1/4ed0b9bb41db51797e8135ac3de1fd5d/res/layout/redbox_item_frame.xml"
     },
     {
         "merged": "/Users/freshbook/Work/otus/rn1/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
@@ -741,7 +741,7 @@
     },
     {
         "merged": "/Users/freshbook/Work/otus/rn1/android/app/build/intermediates/res/merged/debug/anim_catalyst_slide_up.xml.flat",
-        "source": "/Users/freshbook/.gradle/caches/transforms-2/files-2.1/74ea7c0095caee939e6f364593ac5d70/res/anim/catalyst_slide_up.xml"
+        "source": "/Users/freshbook/.gradle/caches/transforms-2/files-2.1/4ed0b9bb41db51797e8135ac3de1fd5d/res/anim/catalyst_slide_up.xml"
     },
     {
         "merged": "/Users/freshbook/Work/otus/rn1/android/app/build/intermediates/res/merged/debug/anim_abc_shrink_fade_out_from_bottom.xml.flat",
@@ -825,7 +825,7 @@
     },
     {
         "merged": "/Users/freshbook/Work/otus/rn1/android/app/build/intermediates/res/merged/debug/layout_redbox_item_title.xml.flat",
-        "source": "/Users/freshbook/.gradle/caches/transforms-2/files-2.1/74ea7c0095caee939e6f364593ac5d70/res/layout/redbox_item_title.xml"
+        "source": "/Users/freshbook/.gradle/caches/transforms-2/files-2.1/4ed0b9bb41db51797e8135ac3de1fd5d/res/layout/redbox_item_title.xml"
     },
     {
         "merged": "/Users/freshbook/Work/otus/rn1/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
@@ -1053,7 +1053,7 @@
     },
     {
         "merged": "/Users/freshbook/Work/otus/rn1/android/app/build/intermediates/res/merged/debug/layout_dev_loading_view.xml.flat",
-        "source": "/Users/freshbook/.gradle/caches/transforms-2/files-2.1/74ea7c0095caee939e6f364593ac5d70/res/layout/dev_loading_view.xml"
+        "source": "/Users/freshbook/.gradle/caches/transforms-2/files-2.1/4ed0b9bb41db51797e8135ac3de1fd5d/res/layout/dev_loading_view.xml"
     },
     {
         "merged": "/Users/freshbook/Work/otus/rn1/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_longpressed_holo.9.png.flat",
@@ -1257,7 +1257,7 @@
     },
     {
         "merged": "/Users/freshbook/Work/otus/rn1/android/app/build/intermediates/res/merged/debug/anim_catalyst_slide_down.xml.flat",
-        "source": "/Users/freshbook/.gradle/caches/transforms-2/files-2.1/74ea7c0095caee939e6f364593ac5d70/res/anim/catalyst_slide_down.xml"
+        "source": "/Users/freshbook/.gradle/caches/transforms-2/files-2.1/4ed0b9bb41db51797e8135ac3de1fd5d/res/anim/catalyst_slide_down.xml"
     },
     {
         "merged": "/Users/freshbook/Work/otus/rn1/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_half_black_36dp.png.flat",
@@ -1269,7 +1269,7 @@
     },
     {
         "merged": "/Users/freshbook/Work/otus/rn1/android/app/build/intermediates/res/merged/debug/anim_catalyst_fade_in.xml.flat",
-        "source": "/Users/freshbook/.gradle/caches/transforms-2/files-2.1/74ea7c0095caee939e6f364593ac5d70/res/anim/catalyst_fade_in.xml"
+        "source": "/Users/freshbook/.gradle/caches/transforms-2/files-2.1/4ed0b9bb41db51797e8135ac3de1fd5d/res/anim/catalyst_fade_in.xml"
     },
     {
         "merged": "/Users/freshbook/Work/otus/rn1/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
@@ -1305,7 +1305,7 @@
     },
     {
         "merged": "/Users/freshbook/Work/otus/rn1/android/app/build/intermediates/res/merged/debug/drawable_redbox_top_border_background.xml.flat",
-        "source": "/Users/freshbook/.gradle/caches/transforms-2/files-2.1/74ea7c0095caee939e6f364593ac5d70/res/drawable/redbox_top_border_background.xml"
+        "source": "/Users/freshbook/.gradle/caches/transforms-2/files-2.1/4ed0b9bb41db51797e8135ac3de1fd5d/res/drawable/redbox_top_border_background.xml"
     },
     {
         "merged": "/Users/freshbook/Work/otus/rn1/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
@@ -1333,7 +1333,7 @@
     },
     {
         "merged": "/Users/freshbook/Work/otus/rn1/android/app/build/intermediates/res/merged/debug/layout_fps_view.xml.flat",
-        "source": "/Users/freshbook/.gradle/caches/transforms-2/files-2.1/74ea7c0095caee939e6f364593ac5d70/res/layout/fps_view.xml"
+        "source": "/Users/freshbook/.gradle/caches/transforms-2/files-2.1/4ed0b9bb41db51797e8135ac3de1fd5d/res/layout/fps_view.xml"
     },
     {
         "merged": "/Users/freshbook/Work/otus/rn1/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
@@ -1561,7 +1561,7 @@
     },
     {
         "merged": "/Users/freshbook/Work/otus/rn1/android/app/build/intermediates/res/merged/debug/xml_rn_dev_preferences.xml.flat",
-        "source": "/Users/freshbook/.gradle/caches/transforms-2/files-2.1/74ea7c0095caee939e6f364593ac5d70/res/xml/rn_dev_preferences.xml"
+        "source": "/Users/freshbook/.gradle/caches/transforms-2/files-2.1/4ed0b9bb41db51797e8135ac3de1fd5d/res/xml/rn_dev_preferences.xml"
     },
     {
         "merged": "/Users/freshbook/Work/otus/rn1/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
@@ -1677,7 +1677,7 @@
     },
     {
         "merged": "/Users/freshbook/Work/otus/rn1/android/app/build/intermediates/res/merged/debug/anim_catalyst_push_up_in.xml.flat",
-        "source": "/Users/freshbook/.gradle/caches/transforms-2/files-2.1/74ea7c0095caee939e6f364593ac5d70/res/anim/catalyst_push_up_in.xml"
+        "source": "/Users/freshbook/.gradle/caches/transforms-2/files-2.1/4ed0b9bb41db51797e8135ac3de1fd5d/res/anim/catalyst_push_up_in.xml"
     },
     {
         "merged": "/Users/freshbook/Work/otus/rn1/android/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_light.xml.flat",

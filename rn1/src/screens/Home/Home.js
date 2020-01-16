@@ -7,7 +7,7 @@ import {
 import {Button, Input, ListItem} from 'react-native-elements';
 import {Filter, Item} from '../../components';
 
-export const Home = ({guests, status, addGuest, changeGuest, removeGuest, filterStatus, fetchDatabase}) => {
+export const Home = ({navigation, guests, status, addGuest, changeGuest, removeGuest, filterStatus, fetchDatabase}) => {
 
     useEffect(() => {
         fetchDatabase();
@@ -38,24 +38,25 @@ export const Home = ({guests, status, addGuest, changeGuest, removeGuest, filter
 
     return (
         <SafeAreaView>
-            <KeyboardAvoidingView behavior='position'>
-                <ListItem
-                    title={
-                        <Text style={styles.textTitle}>Guest Book</Text>
-                    }
-                    subtitle={
-                        <>
-                            <Input ref={_input} placeholder='Write Name Guest' onChangeText={handleInput}/>
-                            <Button style={styles.button} title="Add New Guest" onPress={handleAdd}/>
-                            <Filter guests={guests} status={status} filterStatus={filterStatus}/>
-                        </>
-                    }
-                />
+            <KeyboardAvoidingView>
                 <ScrollView keyboardShouldPersistTaps='always'>
+                    <ListItem
+                        title={
+                            <Text style={styles.textTitle}>Guest Book</Text>
+                        }
+                        subtitle={
+                            <>
+                                <Input ref={_input} placeholder='Write Name Guest' onChangeText={handleInput}/>
+                                <Button style={styles.button} title="Add New Guest" onPress={handleAdd}/>
+                                <Filter guests={guests} status={status} filterStatus={filterStatus}/>
+                            </>
+                        }
+                    />
                     <>
                         {
                             filter.map(guest => <Item key={guest.id}
                                                       guest={guest}
+                                                      navigation={navigation}
                                                       changeGuest={changeGuest}
                                                       removeGuest={removeGuest}/>)
                         }
@@ -82,3 +83,4 @@ const styles = StyleSheet.create({
         marginTop: 10,
     },
 });
+

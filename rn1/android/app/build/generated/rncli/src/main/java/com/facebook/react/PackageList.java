@@ -20,8 +20,18 @@ import io.invertase.firebase.app.ReactNativeFirebaseAppPackage;
 import io.invertase.firebase.auth.ReactNativeFirebaseAuthPackage;
 // @react-native-firebase/database
 import io.invertase.firebase.database.ReactNativeFirebaseDatabasePackage;
+// @react-native-community/masked-view
+import org.reactnative.maskedview.RNCMaskedViewPackage;
+// @react-native-community/async-storage
+import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
+// @react-native-community/netinfo
+import com.reactnativecommunity.netinfo.NetInfoPackage;
 // react-native-vector-icons
 import com.oblador.vectoricons.VectorIconsPackage;
+// react-native-gesture-handler
+import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
+// react-native-safe-area-context
+import com.th3rdwave.safeareacontext.SafeAreaContextPackage;
 
 public class PackageList {
   private Application application;
@@ -70,7 +80,12 @@ public class PackageList {
       new ReactNativeFirebaseAppPackage(),
       new ReactNativeFirebaseAuthPackage(),
       new ReactNativeFirebaseDatabasePackage(),
-      new VectorIconsPackage()
+      new RNCMaskedViewPackage(),
+      new AsyncStoragePackage(),
+      new NetInfoPackage(),
+      new VectorIconsPackage(),
+      new RNGestureHandlerPackage(),
+      new SafeAreaContextPackage()
     ));
   }
 }

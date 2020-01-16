@@ -1,25 +1,38 @@
-import React, {useCallback} from 'react';
+import React, {useCallback, useState} from 'react';
 import {Button, CheckBox, Input, Text, ListItem} from 'react-native-elements';
-import {StyleSheet, View} from 'react-native';
+import {Animated, StyleSheet, View} from 'react-native';
 
-export const Item = ({guest, removeGuest, changeGuest}) => {
+export const Item = ({guest, navigation, removeGuest, changeGuest}) => {
 
+    const [scale] = useState(new Animated.Value(1));
+    const animation = [
+        Animated.timing(scale, {
+            toValue: 0,
+            useNativeDriver: true,
+            duration: 400
+        }),
+    ];
     const handleInput = useCallback((text) => guest.name = text, [guest]);
     const handleChange = useCallback(() => {
         guest.open = !guest.open;
-        guest.name ? changeGuest(guest) : removeGuest(guest.path);
+        guest.name ? changeGuest(guest) : removeGuest(guest);
     }, [guest]);
-    const handleRemove = useCallback(() => removeGuest(guest.path), [guest]);
+    const handleRemove = useCallback(() => {
+        const fn = () => removeGuest(guest);
+        Animated.sequence(animation).start(fn);
+    }, [guest]);
     const handleCheck = useCallback(() => changeGuest({...guest, pair: !guest.pair}), [guest]);
     const changeView = useCallback(() => {
         guest.open = !guest.open;
         changeGuest(guest);
     }, [guest]);
+    const handlePress = useCallback(() => navigation.navigate('Detail', { guest: guest }), [guest]);
 
     return (
-        <>
+        <Animated.View style={{transform: [{ scale }]}}>
             {
                 <ListItem onLongPress={changeView}
+                          onPress={handlePress}
                           title={
                               <View style={styles.inline}>
                                   {
@@ -48,7 +61,7 @@ export const Item = ({guest, removeGuest, changeGuest}) => {
                           bottomDivider
                 />
             }
-        </>
+        </Animated.View>
     );
 };
 
