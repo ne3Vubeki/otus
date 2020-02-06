@@ -12,7 +12,7 @@ const App = () => (
     <Provider store={store}>
         <PersistGate loading={null} persistor={persistor}>
             <ThemeProvider theme={theme}>
-                <Navigation/>
+                <Navigation />
             </ThemeProvider>
         </PersistGate>
     </Provider>
