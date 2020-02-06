@@ -1,8 +1,6 @@
 import database from '@react-native-firebase/database';
 import {
     getStoreActions,
-    getStoreFilter,
-    getStoreGuests,
     removeStoreActions,
     setStoreActions,
 } from './asyncStore';
@@ -67,6 +65,7 @@ const removeGuestBase = (path) => {
 
 export const fetchDatabase = () => async (dispatch) => {
     // const snapshot = await ref.once('value');
+    netState = await NetInfo.fetch();
     NetInfo.addEventListener(async state => {
         const queueActions = await getStoreActions();
         netState = state;
@@ -89,15 +88,8 @@ export const fetchDatabase = () => async (dispatch) => {
             await removeStoreActions();
         }
     });
-    netState = await NetInfo.fetch();
-    if(!netState.isConnected) {
-        const guests = await getStoreGuests();
-        const filter = await getStoreFilter();
-        dispatch(actions.fetchDatabase(guests || []));
-        dispatch(actions.filterStatus(filter || 'all'));
-    }
 
-    ref.on('child_added', (newValue) => {
+    ref.on('child_added', async (newValue) => {
         const guest = { ...newValue.val(), path: newValue.key };
         dispatch(actions.addGuest(guest));
     });
