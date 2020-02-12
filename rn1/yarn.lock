@@ -987,6 +987,11 @@
   resolved "https://registry.yarnpkg.com/@react-native-firebase/database/-/database-6.2.0.tgz#02c96b6a22e32d5d982be39d44e3b5d4ada6ec5e"
   integrity sha512-8+GMVeq4mLTkBh65n7hpUFUNTES95NEn3CSq2qOMapS1xH5hrxcBaUB5WkBDDyvHYgN5NRqeU5Zg/mo3ASPZJw==
 
+"@react-native-firebase/storage@^6.2.0":
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/@react-native-firebase/storage/-/storage-6.2.0.tgz#011e2f597794eadc55f3f3793e5cf11a72f62efb"
+  integrity sha512-N+dC2wR5SKo8y2Y9WpMGn52qqCWIzUaiaJ4ft0lRTv8cM+f72RjmEDW9h52fOd+4gBC4aV3WSe4RVACob72w7g==
+
 "@react-navigation/core@^3.5.1":
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/@react-navigation/core/-/core-3.5.1.tgz#7a2339fca3496979305fb3a8ab88c2ca8d8c214d"
@@ -5417,6 +5422,11 @@ react-native-gesture-handler@^1.5.3:
     hoist-non-react-statics "^2.3.1"
     invariant "^2.2.4"
     prop-types "^15.7.2"
+
+react-native-image-picker@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/react-native-image-picker/-/react-native-image-picker-2.2.1.tgz#0d8551e171338c1f79c0950112c82ced86c664a6"
+  integrity sha512-r0RZtMxYFPOW+NbRBiN68/8pazVDBO+GUeqBQ0B+SQQPz/hgrW4ikXHoQn3R0mp3Qp1xNboHzfQDVW4VVyI6bQ==
 
 react-native-iphone-x-helper@^1.2.1:
   version "1.2.1"

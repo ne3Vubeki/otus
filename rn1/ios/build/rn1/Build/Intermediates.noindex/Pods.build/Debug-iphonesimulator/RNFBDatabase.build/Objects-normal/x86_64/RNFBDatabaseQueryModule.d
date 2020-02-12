@@ -65,5 +65,16 @@ dependencies: \
   /Users/freshbook/Work/otus/rn1/ios/Pods/Headers/Private/FirebaseDatabase/FIRTransactionResult.h \
   /Users/freshbook/Work/otus/rn1/ios/Pods/Headers/Private/FirebaseInstanceID/FirebaseInstanceID.h \
   /Users/freshbook/Work/otus/rn1/ios/Pods/Headers/Private/FirebaseInstanceID/FIRInstanceID.h \
+  /Users/freshbook/Work/otus/rn1/ios/Pods/Headers/Private/FirebaseStorage/FirebaseStorage.h \
+  /Users/freshbook/Work/otus/rn1/ios/Pods/Headers/Private/FirebaseStorage/FIRStorage.h \
+  /Users/freshbook/Work/otus/rn1/ios/Pods/Headers/Private/FirebaseStorage/FIRStorageConstants.h \
+  /Users/freshbook/Work/otus/rn1/ios/Pods/Headers/Private/FirebaseStorage/FIRStorageDownloadTask.h \
+  /Users/freshbook/Work/otus/rn1/ios/Pods/Headers/Private/FirebaseStorage/FIRStorageObservableTask.h \
+  /Users/freshbook/Work/otus/rn1/ios/Pods/Headers/Private/FirebaseStorage/FIRStorageTask.h \
+  /Users/freshbook/Work/otus/rn1/ios/Pods/Headers/Private/FirebaseStorage/FIRStorageMetadata.h \
+  /Users/freshbook/Work/otus/rn1/ios/Pods/Headers/Private/FirebaseStorage/FIRStorageListResult.h \
+  /Users/freshbook/Work/otus/rn1/ios/Pods/Headers/Private/FirebaseStorage/FIRStorageReference.h \
+  /Users/freshbook/Work/otus/rn1/ios/Pods/Headers/Private/FirebaseStorage/FIRStorageUploadTask.h \
+  /Users/freshbook/Work/otus/rn1/ios/Pods/Headers/Private/FirebaseStorage/FIRStorageTaskSnapshot.h \
   /Users/freshbook/Work/otus/rn1/node_modules/@react-native-firebase/database/ios/RNFBDatabase/RNFBDatabaseQueryModule.h \
   /Users/freshbook/Work/otus/rn1/node_modules/@react-native-firebase/database/ios/RNFBDatabase/RNFBDatabaseQuery.h

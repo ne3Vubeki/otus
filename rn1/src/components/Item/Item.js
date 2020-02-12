@@ -21,7 +21,10 @@ export const Item = ({guest, navigation, removeGuest, changeGuest}) => {
         const fn = () => removeGuest(guest);
         Animated.sequence(animation).start(fn);
     }, [guest]);
-    const handleCheck = useCallback(() => changeGuest({...guest, pair: !guest.pair}), [guest]);
+    const handleCheck = useCallback(() => {
+        guest.pair = !guest.pair;
+        changeGuest(guest)
+    }, [guest]);
     const changeView = useCallback(() => {
         guest.open = !guest.open;
         changeGuest(guest);

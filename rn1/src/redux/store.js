@@ -4,9 +4,9 @@ import hardSet from 'redux-persist/lib/stateReconciler/hardSet';
 import AsyncStorage from '@react-native-community/async-storage';
 import thunk from 'redux-thunk';
 import {logger} from 'redux-logger';
-import {guests, filterStatus} from './reducers'
+import {user, guests, filterStatus} from './reducers'
 
-const rootReducer = combineReducers({guests, filterStatus});
+const rootReducer = combineReducers({user, guests, filterStatus});
 
 const persistConfig = {
     key: 'root',

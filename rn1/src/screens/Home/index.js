@@ -6,6 +6,7 @@ import {addGuest, changeGuest, fetchDatabase, removeGuest} from '../../redux/act
 export default connect(
     state =>
         ({
+            user: state.user,
             guests: state.guests,
             filter: state.filter,
             status: state.filterStatus
@@ -15,6 +16,6 @@ export default connect(
         changeGuest,
         removeGuest,
         filterStatus: actions.filterStatus,
-        fetchDatabase
+        fetchDatabase,
     }
 )(Home);

@@ -19,6 +19,17 @@ dependencies: /Users/freshbook/Work/otus/rn1/ios/rn1/AppDelegate.m \
   /Users/freshbook/Work/otus/rn1/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h \
   /Users/freshbook/Work/otus/rn1/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h \
   /Users/freshbook/Work/otus/rn1/ios/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h \
+  /Users/freshbook/Work/otus/rn1/ios/Pods/Headers/Public/FirebaseStorage/FIRStorageTaskSnapshot.h \
+  /Users/freshbook/Work/otus/rn1/ios/Pods/Headers/Public/FirebaseStorage/FIRStorageUploadTask.h \
+  /Users/freshbook/Work/otus/rn1/ios/Pods/Headers/Public/FirebaseStorage/FIRStorageReference.h \
+  /Users/freshbook/Work/otus/rn1/ios/Pods/Headers/Public/FirebaseStorage/FIRStorageListResult.h \
+  /Users/freshbook/Work/otus/rn1/ios/Pods/Headers/Public/FirebaseStorage/FIRStorageMetadata.h \
+  /Users/freshbook/Work/otus/rn1/ios/Pods/Headers/Public/FirebaseStorage/FIRStorageTask.h \
+  /Users/freshbook/Work/otus/rn1/ios/Pods/Headers/Public/FirebaseStorage/FIRStorageObservableTask.h \
+  /Users/freshbook/Work/otus/rn1/ios/Pods/Headers/Public/FirebaseStorage/FIRStorageDownloadTask.h \
+  /Users/freshbook/Work/otus/rn1/ios/Pods/Headers/Public/FirebaseStorage/FIRStorageConstants.h \
+  /Users/freshbook/Work/otus/rn1/ios/Pods/Headers/Public/FirebaseStorage/FIRStorage.h \
+  /Users/freshbook/Work/otus/rn1/ios/Pods/Headers/Public/FirebaseStorage/FirebaseStorage.h \
   /Users/freshbook/Work/otus/rn1/ios/Pods/Headers/Public/FirebaseInstanceID/FIRInstanceID.h \
   /Users/freshbook/Work/otus/rn1/ios/Pods/Headers/Public/FirebaseInstanceID/FirebaseInstanceID.h \
   /Users/freshbook/Work/otus/rn1/ios/Pods/Headers/Public/FirebaseDatabase/FIRTransactionResult.h \

@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {KeyboardAvoidingView, SafeAreaView, ScrollView, StyleSheet, TextInput, View} from 'react-native';
 import {Button} from 'react-native-elements';
+import {MyHeader} from '../../components/MyHeader/MyHeader';
 
 interface IProps {
     navigation: any;
@@ -9,10 +10,10 @@ interface IProps {
 
 export class Detail extends Component<IProps> {
 
-    static navigationOptions = ({ navigation }) => {
-        return {
-            headerTitle: navigation.getParam('guest').name,
-        }
+    static navigationOptions = {
+        cardStyle: {
+            backgroundColor: 'white',
+        },
     };
 
     guest: any;
@@ -21,7 +22,7 @@ export class Detail extends Component<IProps> {
     constructor(props: IProps) {
         super(props);
         this.state = {
-            isChange: false
+            isChange: false,
         };
         this.guest = this.props.navigation.getParam('guest');
         this.comment = this.guest.comment;
@@ -35,7 +36,7 @@ export class Detail extends Component<IProps> {
     }
 
     handleSave() {
-        if(this.guest.comment !== this.comment) {
+        if (this.guest.comment !== this.comment) {
             this.guest.comment = this.comment;
             this.props.changeGuest(this.guest);
             this.setState({isChange: false});
@@ -45,6 +46,11 @@ export class Detail extends Component<IProps> {
     render() {
         return (
             <SafeAreaView>
+                <MyHeader
+                    title={this.guest.name || ''}
+                    navigation={this.props.navigation}
+                    isBackNav
+                />
                 <KeyboardAvoidingView behavior='position'>
                     <ScrollView keyboardShouldPersistTaps='always'>
                         <View style={styles.textAreaContainer}>
@@ -81,6 +87,6 @@ const styles = StyleSheet.create({
         borderColor: 'gray',
         borderWidth: 1,
         padding: 10,
-        height: 150
-    }
+        height: 150,
+    },
 });
