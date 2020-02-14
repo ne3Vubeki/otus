@@ -1,9 +1,6 @@
 import {createAppContainer, createSwitchNavigator} from 'react-navigation';
 import {createStackNavigator} from 'react-navigation-stack';
-import Home from './screens/Home';
-import Detail from './screens/Detail';
-import Auth from './screens/Auth';
-import Profile from './screens/Profile';
+import {Home, Detail, Auth, Profile} from './screens';
 
 const AuthenticatedStack = createStackNavigator(
     {

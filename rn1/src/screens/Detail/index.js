@@ -1,10 +1,3 @@
-import {Detail} from './Detail';
-import {connect} from 'react-redux';
-import {changeGuest} from '../../redux/actionsSwitcher';
+import Detail from './DetailContainer';
 
-export default connect(
-    null,
-    {
-        changeGuest,
-    }
-)(Detail);
+export {Detail};

@@ -25,8 +25,6 @@ export const MyHeader = ({title, navigation, isBackNav, rightHeader}) => {
 const styles = StyleSheet.create({
     header: {
         backgroundColor: 'white',
-        paddingTop: 0,
-        maxHeight: 50,
     },
     title: {
         color: 'black',

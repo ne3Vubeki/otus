@@ -1,13 +1,3 @@
-import {Auth} from './Auth';
-import {connect} from 'react-redux';
-import {loginUser} from '../../redux/actionsSwitcher';
+import Auth from './AuthContainer';
 
-export default connect(
-    state =>
-        ({
-            user: state.user,
-        }),
-    {
-        loginUser,
-    },
-)(Auth);
+export {Auth};
