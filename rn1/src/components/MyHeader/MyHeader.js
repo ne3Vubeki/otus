@@ -7,6 +7,7 @@ export const MyHeader = ({title, navigation, isBackNav, rightHeader}) => {
 
     const backIcon = isBackNav ?
         <Icon name='ios-arrow-back'
+              testID={`back_${title}`}
               style={styles.back}
               type='ionicon'
               onPress={() => navigation.goBack()}/>
@@ -14,6 +15,7 @@ export const MyHeader = ({title, navigation, isBackNav, rightHeader}) => {
 
     return (
         <Header
+            testID={`header_${title}`}
             leftComponent={backIcon}
             centerComponent={{text: title, style: styles.title}}
             rightComponent={rightHeader}

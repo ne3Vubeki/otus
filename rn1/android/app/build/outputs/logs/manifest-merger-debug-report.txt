@@ -1,78 +1,82 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:1:1-26:12
-MERGED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:1:1-26:12
+ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:1:1-28:12
+INJECTED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:1:1-28:12
+INJECTED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:1:1-28:12
+INJECTED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:1:1-28:12
+MERGED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:1:1-28:12
+MERGED from [:@react-native-community_async-storage] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:@react-native-community_masked-view] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:@react-native-community_netinfo] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-12:12
+MERGED from [:@react-native-community_checkbox] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-community/checkbox/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:@react-native-firebase_auth] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [:@react-native-firebase_database] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-firebase/database/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:@react-native-firebase_storage] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-18:12
 MERGED from [:@react-native-firebase_app] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:@react-native-community_masked-view] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:@react-native-community_async-storage] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:@react-native-community_netinfo] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-12:12
-MERGED from [:react-native-vector-icons] /Users/freshbook/Work/otus/rn1/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-gesture-handler] /Users/freshbook/Work/otus/rn1/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-image-picker] /Users/freshbook/Work/otus/rn1/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-21:12
 MERGED from [:react-native-safe-area-context] /Users/freshbook/Work/otus/rn1/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.react:react-native:0.61.5] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/4ed0b9bb41db51797e8135ac3de1fd5d/AndroidManifest.xml:2:1-13:12
-MERGED from [org.webkit:android-jsc:r245459] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/1ac55e42e6d5364089a50ca8d4440bcb/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/e5af6742f4c5c38945215ea7409cdb2d/AndroidManifest.xml:17:1-22:12
-MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/19a4d5c5d10704a749d8b3d7b2b9a096/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/665e6a86df5d548df02cd3054db32b43/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/f04fa702f34774640d3d919205e2ab1b/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/02d23d4ff451fa769a2b22b22e232449/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/80f2ad2dc641bd180fcd1a64edf0bca1/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/f1549fc9f31e3f59392f80d03f9c070b/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/b7aaccfc0c370633a459774ead4f6e09/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/979b8b4070a46bfa2acf0d28c3dfd8ed/AndroidManifest.xml:2:1-13:12
-MERGED from [androidx.multidex:multidex:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/32677d0d3ab4dc5f75792697026239c7/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-core:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/5b1ce9d9c2b5ae55f65797b8407aead9/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-auth:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2907445c17d10b3c91ea6d47aad4a820/AndroidManifest.xml:17:1-42:12
-MERGED from [com.google.firebase:firebase-database:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/647714b67fee534e9f5f4ba218f43363/AndroidManifest.xml:15:1-38:12
-MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/d4b4ba64a143df09bdbf9e2abf3073f2/AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.firebase:firebase-analytics:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/fd235ef79dcaa84200aa2aed9c542c22/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/d5be9c880c5dcf51e0a8aeee072d985e/AndroidManifest.xml:17:1-36:12
-MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/4dfdf7d893f915f156d1682b571d8de7/AndroidManifest.xml:17:1-47:12
-MERGED from [com.google.firebase:firebase-common:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/35de7cf27500bbb2993eb00ed9168c2f/AndroidManifest.xml:2:1-26:12
-MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/688b84f4eec1c6cebc1938e4cee5f1f7/AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/96b21752b36d38cab6a2397528308a25/AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/926692e3107d4e450d8a1315788a8938/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/543474181d8181afd425a872cd30ca73/AndroidManifest.xml:17:1-55:12
-MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/3510f32f15f4f899102cf68f88add71f/AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2060154bf4d32241202420a8fabb4523/AndroidManifest.xml:17:1-40:12
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/46ad4d2ba83947d2d442312f8f41e551/AndroidManifest.xml:17:1-27:12
-MERGED from [com.google.android.gms:play-services-measurement-base:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/f68f7fca1f13ee6597e7669287695c67/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/3f1f5ff33807d570aa0fc3722c20db5e/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/623253a73d94517c736b9741179428a1/AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c96c2843961ba6ac0a5d04ab0a2a69c8/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/1a586bd3cf9b9a33a1f115d7495288dd/AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.fragment:fragment:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c69ee38e7639d6b2b2cca18ce3732285/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/327b0d8e4896b07762d4413235374ae5/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/d895e224959373f351fac8d914523fd5/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/ef4f23b2e33a9a4818493a15a7d66ee1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/0cfec81689cb4d0e22410743e56f1776/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/78b79948cc24bd9f6e175617cafaa13d/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/1e3dfa135e059c3507fcecf2d48373b6/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/0c70e5db6dc0ada3b5a6b764ebeedd8b/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/b9fe744dde8079e73d759878da3b8b9d/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/a7c8d291a1c76928fd1f583191322721/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/5aa7b4e113bbce5667eb214a6c31b516/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/a38d07bc86e2cea5efcb484b6708398d/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/54f3dba7aad4bfee065b7a648bc6c6f3/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.0.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/5b3749737e980b3b39210faf4e89d2f2/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/22440a513e2a7386234827ea59002253/AndroidManifest.xml:17:1-25:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/383b34da046afc9b7d0c9feeabfa09e1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/79eb5994107edb7253ebd6073e8b1c04/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/1086bc9e46b22ac7c2bf8c875d21b1ee/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/5116c0c2c713bd58b2d0c4ef8a14f7ff/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/f93785d0cf9c0b9656a3512aa1b1dd5a/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/53a06e2ae928984a1a83750086d9f6b4/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/9faaea19ef0f1f9cf0e9a86105338cbd/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/3c32a77f5dfd8bb5bf7e233276d67acd/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/76b478d028b99bdf4a1718cc6c7cf805/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/fa0bea4951cabc49fa1e66e0ce795e32/AndroidManifest.xml:17:1-22:12
-MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/d2069da5a81cedeba0ec3d6c200af3bd/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/4cbb127f127024b31c0d6bed4fe70239/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-vector-icons] /Users/freshbook/Work/otus/rn1/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/8f9dedea00b32f473cf07a05ec995767/jetified-react-native-0.61.5/AndroidManifest.xml:2:1-13:12
+MERGED from [org.webkit:android-jsc:r245459] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/89eeed811addc0e181201ab6ba0dae9f/android-jsc-r245459/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/41c9a67c18533a1ac5caa60e1862d997/appcompat-1.0.2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/343a1eae2acccda222398cf565db41ac/fresco-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/a76a3aa7d8011c0f6e223e72c1e92a17/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/0253ae039a0ea30060f1324aa4edc40c/drawee-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/42f5a7f2f2ca7ed784847e1c00e40574/nativeimagefilters-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/016fb00b0cef2fa6d728800238ea3d23/imagepipeline-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/637d84f600165088a816248cdfcbab09/nativeimagetranscoder-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/68ba07dab0d6140944670e8daf5ef899/imagepipeline-base-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/ec22800038cadb2784efb2625eeccea3/soloader-0.6.0/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/87e4142cce93351d9b38a25b6a2d04b1/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-core:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/efca97a796c9f77462e409b747a27292/firebase-core-17.2.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-auth:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/7a4b69d8a41b28e39d8367edc089c630/firebase-auth-19.1.0/AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-storage:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2b9c704c37be12b2190dabbedc627865/firebase-storage-19.1.0/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-database:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/9660f619e27ad50f17dfc7ca4dfb203e/firebase-database-19.2.0/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/74089b26cf6fa629f3c7cc449b384030/firebase-auth-interop-18.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-analytics:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/bec19782a822fba6f859685c6d19275e/firebase-analytics-17.2.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/59bd5e05af7450c8d70be6c2906fe496/play-services-measurement-api-17.2.1/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/181d61bd7873493b9d7d47a425fa4b89/firebase-iid-19.0.0/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-common:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/6f5ba738f9986e5e29085b103b3c4b76/firebase-common-19.2.0/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/acc240825c5679fcb15ea255fbacd044/firebase-iid-interop-17.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/5983221980d888e5695c469b953b70df/play-services-base-17.1.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/4845f6702f4736d9f79a01bacea85bb7/play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c6ff2d45a3a262ad31f51c579ad78d8f/play-services-measurement-17.2.1/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/e04f9835d4dd5528d678316800cc3e92/play-services-measurement-sdk-17.2.1/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/5ac92554f28944adb6da811c74e1c263/play-services-measurement-impl-17.2.1/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c050f1e7ab124a6e144b1579ef2af551/play-services-measurement-sdk-api-17.2.1/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/41155a9075a471162ae9d307206083bb/play-services-measurement-base-17.2.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/f497e7d679a1cc52538d1a080e0a90f4/play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/57f24e24baffb42915b09711270abbf3/firebase-measurement-connector-18.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/e55249a9711b803c2e4efe802b679c64/play-services-ads-identifier-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/7960c5174154070a1124e423bbdbbcb4/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/9ffde239bb48937c9e7288a6eaf8d88d/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/cb13a6dc9cea871d0f209f160dcba1fa/vectordrawable-animated-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2e23363c4edecc269c965b31f8921798/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/0a3d4fc201d3a6e37c4665b82c335d7d/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/46eb19ef679ce8463568012237a79e06/vectordrawable-1.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c6d6f6828dc370cfdfb91d72865ef408/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/1510786aec71034215dfb361a95a0446/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/4de6e5037732a66d6010a9d5eaa11236/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/dcd53e8b247ed3172988a560e011e9e6/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/9bad0179baa53e6ca96af1d799288576/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/d8d9d5eab54a93f9247c9e2ab959d371/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/ed993a18d23be55b3f5353904e56f228/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/8d24fc66d93a10151f75cb2ea8d4ce3d/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/048fba50cc9d93add658b8ed02052590/core-1.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/d06b4b3cfcd462f4236e490fba79465b/versionedparcelable-1.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/0884eea3338a199017f09e18cbdc6130/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2de5837f16f24e1bc7ac401f5e17bd70/lifecycle-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/d683a78f5e6ee00cf64e3ac12426ea6f/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/6e4147730988560b1ff2b4b47ce1bf6c/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/6d5a840791a8571f3b7defb5230c99e3/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/e6b185287e2064610529def991253cdc/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/87ce87e565a05f660fa28724c428a828/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/73b5fb9903dcbd0c8ed93522382f47f1/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/6a512c86cf6f119a00a25cbc1ca36793/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/51019a29f009ce14f965cb1103c9a6a5/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/cd0ed93f7604d7b8453a9d8e4187f1a8/jetified-fbcore-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/a6a90b98d742be0bbb90d928cfd24f06/firebase-database-collection-17.0.0/AndroidManifest.xml:2:1-7:12
 INJECTED from /Users/freshbook/Work/otus/rn1/android/app/src/debug/AndroidManifest.xml:2:1-8:12
 INJECTED from /Users/freshbook/Work/otus/rn1/android/app/src/debug/AndroidManifest.xml:2:1-8:12
 INJECTED from /Users/freshbook/Work/otus/rn1/android/app/src/debug/AndroidManifest.xml:2:1-8:12
@@ -83,13 +87,13 @@ INJECTED from /Users/freshbook/Work/otus/rn1/android/app/src/debug/AndroidManife
 		INJECTED from /Users/freshbook/Work/otus/rn1/android/app/src/debug/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:1:1-28:12
 		INJECTED from /Users/freshbook/Work/otus/rn1/android/app/src/debug/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/debug/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:1:1-28:12
 		INJECTED from /Users/freshbook/Work/otus/rn1/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:1:11-69
@@ -99,260 +103,286 @@ MERGED from [:@react-native-firebase_auth] /Users/freshbook/Work/otus/rn1/node_m
 MERGED from [:@react-native-firebase_auth] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
 MERGED from [:@react-native-firebase_database] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-firebase/database/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
 MERGED from [:@react-native-firebase_database] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-firebase/database/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
-MERGED from [com.google.firebase:firebase-database:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/647714b67fee534e9f5f4ba218f43363/AndroidManifest.xml:26:5-67
-MERGED from [com.google.firebase:firebase-database:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/647714b67fee534e9f5f4ba218f43363/AndroidManifest.xml:26:5-67
-MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/d5be9c880c5dcf51e0a8aeee072d985e/AndroidManifest.xml:22:5-67
-MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/d5be9c880c5dcf51e0a8aeee072d985e/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/4dfdf7d893f915f156d1682b571d8de7/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/4dfdf7d893f915f156d1682b571d8de7/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/543474181d8181afd425a872cd30ca73/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/543474181d8181afd425a872cd30ca73/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2060154bf4d32241202420a8fabb4523/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2060154bf4d32241202420a8fabb4523/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/46ad4d2ba83947d2d442312f8f41e551/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/46ad4d2ba83947d2d442312f8f41e551/AndroidManifest.xml:23:5-67
+MERGED from [:@react-native-firebase_storage] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [:@react-native-firebase_storage] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-storage:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2b9c704c37be12b2190dabbedc627865/firebase-storage-19.1.0/AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-storage:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2b9c704c37be12b2190dabbedc627865/firebase-storage-19.1.0/AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-database:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/9660f619e27ad50f17dfc7ca4dfb203e/firebase-database-19.2.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/9660f619e27ad50f17dfc7ca4dfb203e/firebase-database-19.2.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/59bd5e05af7450c8d70be6c2906fe496/play-services-measurement-api-17.2.1/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/59bd5e05af7450c8d70be6c2906fe496/play-services-measurement-api-17.2.1/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/181d61bd7873493b9d7d47a425fa4b89/firebase-iid-19.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/181d61bd7873493b9d7d47a425fa4b89/firebase-iid-19.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c6ff2d45a3a262ad31f51c579ad78d8f/play-services-measurement-17.2.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c6ff2d45a3a262ad31f51c579ad78d8f/play-services-measurement-17.2.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/5ac92554f28944adb6da811c74e1c263/play-services-measurement-impl-17.2.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/5ac92554f28944adb6da811c74e1c263/play-services-measurement-impl-17.2.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c050f1e7ab124a6e144b1579ef2af551/play-services-measurement-sdk-api-17.2.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c050f1e7ab124a6e144b1579ef2af551/play-services-measurement-sdk-api-17.2.1/AndroidManifest.xml:23:5-67
 	android:name
 		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.CAMERA
+ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:5:5-65
+	android:name
+		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:5:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:6:5-80
+MERGED from [:@react-native-firebase_storage] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:5-81
+MERGED from [:@react-native-firebase_storage] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:6:22-78
 application
-ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:6:5-24:19
-MERGED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:6:5-24:19
-MERGED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:6:5-24:19
-MERGED from [com.facebook.react:react-native:0.61.5] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/4ed0b9bb41db51797e8135ac3de1fd5d/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.react:react-native:0.61.5] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/4ed0b9bb41db51797e8135ac3de1fd5d/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/979b8b4070a46bfa2acf0d28c3dfd8ed/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/979b8b4070a46bfa2acf0d28c3dfd8ed/AndroidManifest.xml:11:5-20
-MERGED from [com.google.firebase:firebase-core:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/5b1ce9d9c2b5ae55f65797b8407aead9/AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-core:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/5b1ce9d9c2b5ae55f65797b8407aead9/AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-auth:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2907445c17d10b3c91ea6d47aad4a820/AndroidManifest.xml:23:5-40:19
-MERGED from [com.google.firebase:firebase-auth:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2907445c17d10b3c91ea6d47aad4a820/AndroidManifest.xml:23:5-40:19
-MERGED from [com.google.firebase:firebase-database:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/647714b67fee534e9f5f4ba218f43363/AndroidManifest.xml:28:5-36:19
-MERGED from [com.google.firebase:firebase-database:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/647714b67fee534e9f5f4ba218f43363/AndroidManifest.xml:28:5-36:19
-MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/d4b4ba64a143df09bdbf9e2abf3073f2/AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/d4b4ba64a143df09bdbf9e2abf3073f2/AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-analytics:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/fd235ef79dcaa84200aa2aed9c542c22/AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-analytics:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/fd235ef79dcaa84200aa2aed9c542c22/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/d5be9c880c5dcf51e0a8aeee072d985e/AndroidManifest.xml:26:5-34:19
-MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/d5be9c880c5dcf51e0a8aeee072d985e/AndroidManifest.xml:26:5-34:19
-MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/4dfdf7d893f915f156d1682b571d8de7/AndroidManifest.xml:28:5-45:19
-MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/4dfdf7d893f915f156d1682b571d8de7/AndroidManifest.xml:28:5-45:19
-MERGED from [com.google.firebase:firebase-common:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/35de7cf27500bbb2993eb00ed9168c2f/AndroidManifest.xml:12:5-24:19
-MERGED from [com.google.firebase:firebase-common:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/35de7cf27500bbb2993eb00ed9168c2f/AndroidManifest.xml:12:5-24:19
-MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/688b84f4eec1c6cebc1938e4cee5f1f7/AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/688b84f4eec1c6cebc1938e4cee5f1f7/AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/96b21752b36d38cab6a2397528308a25/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/96b21752b36d38cab6a2397528308a25/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/926692e3107d4e450d8a1315788a8938/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/926692e3107d4e450d8a1315788a8938/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/543474181d8181afd425a872cd30ca73/AndroidManifest.xml:28:5-53:19
-MERGED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/543474181d8181afd425a872cd30ca73/AndroidManifest.xml:28:5-53:19
-MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/3510f32f15f4f899102cf68f88add71f/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/3510f32f15f4f899102cf68f88add71f/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2060154bf4d32241202420a8fabb4523/AndroidManifest.xml:28:5-38:19
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2060154bf4d32241202420a8fabb4523/AndroidManifest.xml:28:5-38:19
-MERGED from [com.google.android.gms:play-services-measurement-base:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/f68f7fca1f13ee6597e7669287695c67/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-measurement-base:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/f68f7fca1f13ee6597e7669287695c67/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/3f1f5ff33807d570aa0fc3722c20db5e/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/3f1f5ff33807d570aa0fc3722c20db5e/AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/623253a73d94517c736b9741179428a1/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/623253a73d94517c736b9741179428a1/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c96c2843961ba6ac0a5d04ab0a2a69c8/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c96c2843961ba6ac0a5d04ab0a2a69c8/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/1a586bd3cf9b9a33a1f115d7495288dd/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/1a586bd3cf9b9a33a1f115d7495288dd/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.core:core:1.0.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/5b3749737e980b3b39210faf4e89d2f2/AndroidManifest.xml:22:5-89
-MERGED from [androidx.core:core:1.0.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/5b3749737e980b3b39210faf4e89d2f2/AndroidManifest.xml:22:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/22440a513e2a7386234827ea59002253/AndroidManifest.xml:22:5-23:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/22440a513e2a7386234827ea59002253/AndroidManifest.xml:22:5-23:19
+ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:8:5-26:19
+MERGED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:8:5-26:19
+MERGED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:8:5-26:19
+MERGED from [:react-native-image-picker] /Users/freshbook/Work/otus/rn1/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-19:19
+MERGED from [:react-native-image-picker] /Users/freshbook/Work/otus/rn1/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-19:19
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/8f9dedea00b32f473cf07a05ec995767/jetified-react-native-0.61.5/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/8f9dedea00b32f473cf07a05ec995767/jetified-react-native-0.61.5/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/ec22800038cadb2784efb2625eeccea3/soloader-0.6.0/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/ec22800038cadb2784efb2625eeccea3/soloader-0.6.0/AndroidManifest.xml:11:5-20
+MERGED from [com.google.firebase:firebase-core:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/efca97a796c9f77462e409b747a27292/firebase-core-17.2.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/efca97a796c9f77462e409b747a27292/firebase-core-17.2.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-auth:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/7a4b69d8a41b28e39d8367edc089c630/firebase-auth-19.1.0/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/7a4b69d8a41b28e39d8367edc089c630/firebase-auth-19.1.0/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-storage:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2b9c704c37be12b2190dabbedc627865/firebase-storage-19.1.0/AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.firebase:firebase-storage:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2b9c704c37be12b2190dabbedc627865/firebase-storage-19.1.0/AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.firebase:firebase-database:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/9660f619e27ad50f17dfc7ca4dfb203e/firebase-database-19.2.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-database:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/9660f619e27ad50f17dfc7ca4dfb203e/firebase-database-19.2.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/74089b26cf6fa629f3c7cc449b384030/firebase-auth-interop-18.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/74089b26cf6fa629f3c7cc449b384030/firebase-auth-interop-18.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-analytics:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/bec19782a822fba6f859685c6d19275e/firebase-analytics-17.2.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/bec19782a822fba6f859685c6d19275e/firebase-analytics-17.2.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/59bd5e05af7450c8d70be6c2906fe496/play-services-measurement-api-17.2.1/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/59bd5e05af7450c8d70be6c2906fe496/play-services-measurement-api-17.2.1/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/181d61bd7873493b9d7d47a425fa4b89/firebase-iid-19.0.0/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/181d61bd7873493b9d7d47a425fa4b89/firebase-iid-19.0.0/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-common:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/6f5ba738f9986e5e29085b103b3c4b76/firebase-common-19.2.0/AndroidManifest.xml:12:5-24:19
+MERGED from [com.google.firebase:firebase-common:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/6f5ba738f9986e5e29085b103b3c4b76/firebase-common-19.2.0/AndroidManifest.xml:12:5-24:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/acc240825c5679fcb15ea255fbacd044/firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/acc240825c5679fcb15ea255fbacd044/firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/5983221980d888e5695c469b953b70df/play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/5983221980d888e5695c469b953b70df/play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/4845f6702f4736d9f79a01bacea85bb7/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/4845f6702f4736d9f79a01bacea85bb7/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c6ff2d45a3a262ad31f51c579ad78d8f/play-services-measurement-17.2.1/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c6ff2d45a3a262ad31f51c579ad78d8f/play-services-measurement-17.2.1/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/e04f9835d4dd5528d678316800cc3e92/play-services-measurement-sdk-17.2.1/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/e04f9835d4dd5528d678316800cc3e92/play-services-measurement-sdk-17.2.1/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/5ac92554f28944adb6da811c74e1c263/play-services-measurement-impl-17.2.1/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/5ac92554f28944adb6da811c74e1c263/play-services-measurement-impl-17.2.1/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/41155a9075a471162ae9d307206083bb/play-services-measurement-base-17.2.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/41155a9075a471162ae9d307206083bb/play-services-measurement-base-17.2.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/f497e7d679a1cc52538d1a080e0a90f4/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/f497e7d679a1cc52538d1a080e0a90f4/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/57f24e24baffb42915b09711270abbf3/firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/57f24e24baffb42915b09711270abbf3/firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/e55249a9711b803c2e4efe802b679c64/play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/e55249a9711b803c2e4efe802b679c64/play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/7960c5174154070a1124e423bbdbbcb4/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/7960c5174154070a1124e423bbdbbcb4/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.0.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/048fba50cc9d93add658b8ed02052590/core-1.0.1/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/048fba50cc9d93add658b8ed02052590/core-1.0.1/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/d06b4b3cfcd462f4236e490fba79465b/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/d06b4b3cfcd462f4236e490fba79465b/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.0.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/5b3749737e980b3b39210faf4e89d2f2/AndroidManifest.xml:22:18-86
+		ADDED from [androidx.core:core:1.0.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/048fba50cc9d93add658b8ed02052590/core-1.0.1/AndroidManifest.xml:22:18-86
 	android:label
-		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:8:7-39
-		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:8:7-39
+		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:10:7-39
+		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:10:7-39
 	tools:ignore
 		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/debug/AndroidManifest.xml:7:75-114
 	android:roundIcon
-		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:10:7-52
-		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:10:7-52
+		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:12:7-52
+		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:12:7-52
 	tools:targetApi
 		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/debug/AndroidManifest.xml:7:54-74
 	android:icon
-		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:9:7-41
-		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:9:7-41
+		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:11:7-41
+		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:11:7-41
 	android:allowBackup
-		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:11:7-34
-		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:11:7-34
+		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:13:7-34
+		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:13:7-34
 	android:theme
-		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:12:7-38
-		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:12:7-38
+		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:14:7-38
+		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:14:7-38
 	android:usesCleartextTraffic
 		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/debug/AndroidManifest.xml:7:18-53
 	android:name
-		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:7:7-38
-		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:7:7-38
+		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:9:7-38
+		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:9:7-38
 activity#com.rn1.MainActivity
-ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:13:7-22:18
+ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:15:7-24:18
 	android:label
-		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:15:9-41
+		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:17:9-41
 	android:windowSoftInputMode
-		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:17:9-51
+		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:19:9-51
 	android:configChanges
-		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:16:9-79
+		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:18:9-79
 	android:name
-		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:14:9-37
+		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:16:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:18:9-21:25
+ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:20:9-23:25
 action#android.intent.action.MAIN
-ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:19:13-65
+ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:21:13-65
 	android:name
-		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:19:21-62
+		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:21:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:20:13-73
+ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:22:13-73
 	android:name
-		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:20:23-70
+		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:22:23-70
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:23:7-84
+ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:25:7-84
 	android:name
-		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:23:17-81
+		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml:25:17-81
 uses-sdk
 INJECTED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/freshbook/Work/otus/rn1/android/app/src/main/AndroidManifest.xml
+MERGED from [:@react-native-community_async-storage] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:@react-native-community_async-storage] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:@react-native-community_masked-view] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:@react-native-community_masked-view] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:@react-native-community_netinfo] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:@react-native-community_netinfo] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:@react-native-community_checkbox] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-community/checkbox/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:@react-native-community_checkbox] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-community/checkbox/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:@react-native-firebase_auth] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:@react-native-firebase_auth] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:@react-native-firebase_database] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-firebase/database/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:@react-native-firebase_database] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-firebase/database/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:@react-native-firebase_storage] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:@react-native-firebase_storage] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:@react-native-firebase_app] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:@react-native-firebase_app] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:@react-native-community_masked-view] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:@react-native-community_masked-view] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:@react-native-community_async-storage] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:@react-native-community_async-storage] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:@react-native-community_netinfo] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:@react-native-community_netinfo] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-vector-icons] /Users/freshbook/Work/otus/rn1/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-vector-icons] /Users/freshbook/Work/otus/rn1/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-gesture-handler] /Users/freshbook/Work/otus/rn1/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-gesture-handler] /Users/freshbook/Work/otus/rn1/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-picker] /Users/freshbook/Work/otus/rn1/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-picker] /Users/freshbook/Work/otus/rn1/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-safe-area-context] /Users/freshbook/Work/otus/rn1/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-safe-area-context] /Users/freshbook/Work/otus/rn1/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.react:react-native:0.61.5] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/4ed0b9bb41db51797e8135ac3de1fd5d/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.61.5] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/4ed0b9bb41db51797e8135ac3de1fd5d/AndroidManifest.xml:7:5-9:41
-MERGED from [org.webkit:android-jsc:r245459] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/1ac55e42e6d5364089a50ca8d4440bcb/AndroidManifest.xml:7:5-9:41
-MERGED from [org.webkit:android-jsc:r245459] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/1ac55e42e6d5364089a50ca8d4440bcb/AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/e5af6742f4c5c38945215ea7409cdb2d/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/e5af6742f4c5c38945215ea7409cdb2d/AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/19a4d5c5d10704a749d8b3d7b2b9a096/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/19a4d5c5d10704a749d8b3d7b2b9a096/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/665e6a86df5d548df02cd3054db32b43/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/665e6a86df5d548df02cd3054db32b43/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/f04fa702f34774640d3d919205e2ab1b/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/f04fa702f34774640d3d919205e2ab1b/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/02d23d4ff451fa769a2b22b22e232449/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/02d23d4ff451fa769a2b22b22e232449/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/80f2ad2dc641bd180fcd1a64edf0bca1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/80f2ad2dc641bd180fcd1a64edf0bca1/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/f1549fc9f31e3f59392f80d03f9c070b/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/f1549fc9f31e3f59392f80d03f9c070b/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/b7aaccfc0c370633a459774ead4f6e09/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/b7aaccfc0c370633a459774ead4f6e09/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/979b8b4070a46bfa2acf0d28c3dfd8ed/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/979b8b4070a46bfa2acf0d28c3dfd8ed/AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.multidex:multidex:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/32677d0d3ab4dc5f75792697026239c7/AndroidManifest.xml:20:5-43
-MERGED from [androidx.multidex:multidex:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/32677d0d3ab4dc5f75792697026239c7/AndroidManifest.xml:20:5-43
-MERGED from [com.google.firebase:firebase-core:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/5b1ce9d9c2b5ae55f65797b8407aead9/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-core:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/5b1ce9d9c2b5ae55f65797b8407aead9/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-auth:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2907445c17d10b3c91ea6d47aad4a820/AndroidManifest.xml:21:5-44
-MERGED from [com.google.firebase:firebase-auth:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2907445c17d10b3c91ea6d47aad4a820/AndroidManifest.xml:21:5-44
-MERGED from [com.google.firebase:firebase-database:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/647714b67fee534e9f5f4ba218f43363/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-database:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/647714b67fee534e9f5f4ba218f43363/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/d4b4ba64a143df09bdbf9e2abf3073f2/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/d4b4ba64a143df09bdbf9e2abf3073f2/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-analytics:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/fd235ef79dcaa84200aa2aed9c542c22/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-analytics:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/fd235ef79dcaa84200aa2aed9c542c22/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/d5be9c880c5dcf51e0a8aeee072d985e/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/d5be9c880c5dcf51e0a8aeee072d985e/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/4dfdf7d893f915f156d1682b571d8de7/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/4dfdf7d893f915f156d1682b571d8de7/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-common:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/35de7cf27500bbb2993eb00ed9168c2f/AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.firebase:firebase-common:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/35de7cf27500bbb2993eb00ed9168c2f/AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/688b84f4eec1c6cebc1938e4cee5f1f7/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/688b84f4eec1c6cebc1938e4cee5f1f7/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/96b21752b36d38cab6a2397528308a25/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/96b21752b36d38cab6a2397528308a25/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/926692e3107d4e450d8a1315788a8938/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/926692e3107d4e450d8a1315788a8938/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/543474181d8181afd425a872cd30ca73/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/543474181d8181afd425a872cd30ca73/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/3510f32f15f4f899102cf68f88add71f/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/3510f32f15f4f899102cf68f88add71f/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2060154bf4d32241202420a8fabb4523/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2060154bf4d32241202420a8fabb4523/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/46ad4d2ba83947d2d442312f8f41e551/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/46ad4d2ba83947d2d442312f8f41e551/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-base:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/f68f7fca1f13ee6597e7669287695c67/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-measurement-base:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/f68f7fca1f13ee6597e7669287695c67/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/3f1f5ff33807d570aa0fc3722c20db5e/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/3f1f5ff33807d570aa0fc3722c20db5e/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/623253a73d94517c736b9741179428a1/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/623253a73d94517c736b9741179428a1/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c96c2843961ba6ac0a5d04ab0a2a69c8/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c96c2843961ba6ac0a5d04ab0a2a69c8/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/1a586bd3cf9b9a33a1f115d7495288dd/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/1a586bd3cf9b9a33a1f115d7495288dd/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c69ee38e7639d6b2b2cca18ce3732285/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c69ee38e7639d6b2b2cca18ce3732285/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/327b0d8e4896b07762d4413235374ae5/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/327b0d8e4896b07762d4413235374ae5/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/d895e224959373f351fac8d914523fd5/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/d895e224959373f351fac8d914523fd5/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/ef4f23b2e33a9a4818493a15a7d66ee1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/ef4f23b2e33a9a4818493a15a7d66ee1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/0cfec81689cb4d0e22410743e56f1776/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/0cfec81689cb4d0e22410743e56f1776/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/78b79948cc24bd9f6e175617cafaa13d/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/78b79948cc24bd9f6e175617cafaa13d/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/1e3dfa135e059c3507fcecf2d48373b6/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/1e3dfa135e059c3507fcecf2d48373b6/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/0c70e5db6dc0ada3b5a6b764ebeedd8b/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/0c70e5db6dc0ada3b5a6b764ebeedd8b/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/b9fe744dde8079e73d759878da3b8b9d/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/b9fe744dde8079e73d759878da3b8b9d/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/a7c8d291a1c76928fd1f583191322721/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/a7c8d291a1c76928fd1f583191322721/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/5aa7b4e113bbce5667eb214a6c31b516/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/5aa7b4e113bbce5667eb214a6c31b516/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/a38d07bc86e2cea5efcb484b6708398d/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/a38d07bc86e2cea5efcb484b6708398d/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/54f3dba7aad4bfee065b7a648bc6c6f3/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/54f3dba7aad4bfee065b7a648bc6c6f3/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.0.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/5b3749737e980b3b39210faf4e89d2f2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.0.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/5b3749737e980b3b39210faf4e89d2f2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/22440a513e2a7386234827ea59002253/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/22440a513e2a7386234827ea59002253/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/383b34da046afc9b7d0c9feeabfa09e1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/383b34da046afc9b7d0c9feeabfa09e1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/79eb5994107edb7253ebd6073e8b1c04/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/79eb5994107edb7253ebd6073e8b1c04/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/1086bc9e46b22ac7c2bf8c875d21b1ee/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/1086bc9e46b22ac7c2bf8c875d21b1ee/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/5116c0c2c713bd58b2d0c4ef8a14f7ff/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/5116c0c2c713bd58b2d0c4ef8a14f7ff/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/f93785d0cf9c0b9656a3512aa1b1dd5a/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/f93785d0cf9c0b9656a3512aa1b1dd5a/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/53a06e2ae928984a1a83750086d9f6b4/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/53a06e2ae928984a1a83750086d9f6b4/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/9faaea19ef0f1f9cf0e9a86105338cbd/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/9faaea19ef0f1f9cf0e9a86105338cbd/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/3c32a77f5dfd8bb5bf7e233276d67acd/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/3c32a77f5dfd8bb5bf7e233276d67acd/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/76b478d028b99bdf4a1718cc6c7cf805/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/76b478d028b99bdf4a1718cc6c7cf805/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/fa0bea4951cabc49fa1e66e0ce795e32/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/fa0bea4951cabc49fa1e66e0ce795e32/AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/d2069da5a81cedeba0ec3d6c200af3bd/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/d2069da5a81cedeba0ec3d6c200af3bd/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/4cbb127f127024b31c0d6bed4fe70239/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/4cbb127f127024b31c0d6bed4fe70239/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-vector-icons] /Users/freshbook/Work/otus/rn1/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Users/freshbook/Work/otus/rn1/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/8f9dedea00b32f473cf07a05ec995767/jetified-react-native-0.61.5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/8f9dedea00b32f473cf07a05ec995767/jetified-react-native-0.61.5/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/89eeed811addc0e181201ab6ba0dae9f/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/89eeed811addc0e181201ab6ba0dae9f/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/41c9a67c18533a1ac5caa60e1862d997/appcompat-1.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/41c9a67c18533a1ac5caa60e1862d997/appcompat-1.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/343a1eae2acccda222398cf565db41ac/fresco-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/343a1eae2acccda222398cf565db41ac/fresco-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/a76a3aa7d8011c0f6e223e72c1e92a17/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/a76a3aa7d8011c0f6e223e72c1e92a17/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/0253ae039a0ea30060f1324aa4edc40c/drawee-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/0253ae039a0ea30060f1324aa4edc40c/drawee-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/42f5a7f2f2ca7ed784847e1c00e40574/nativeimagefilters-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/42f5a7f2f2ca7ed784847e1c00e40574/nativeimagefilters-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/016fb00b0cef2fa6d728800238ea3d23/imagepipeline-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/016fb00b0cef2fa6d728800238ea3d23/imagepipeline-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/637d84f600165088a816248cdfcbab09/nativeimagetranscoder-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/637d84f600165088a816248cdfcbab09/nativeimagetranscoder-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/68ba07dab0d6140944670e8daf5ef899/imagepipeline-base-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/68ba07dab0d6140944670e8daf5ef899/imagepipeline-base-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/ec22800038cadb2784efb2625eeccea3/soloader-0.6.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/ec22800038cadb2784efb2625eeccea3/soloader-0.6.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/87e4142cce93351d9b38a25b6a2d04b1/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/87e4142cce93351d9b38a25b6a2d04b1/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-core:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/efca97a796c9f77462e409b747a27292/firebase-core-17.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/efca97a796c9f77462e409b747a27292/firebase-core-17.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/7a4b69d8a41b28e39d8367edc089c630/firebase-auth-19.1.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/7a4b69d8a41b28e39d8367edc089c630/firebase-auth-19.1.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-storage:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2b9c704c37be12b2190dabbedc627865/firebase-storage-19.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2b9c704c37be12b2190dabbedc627865/firebase-storage-19.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-database:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/9660f619e27ad50f17dfc7ca4dfb203e/firebase-database-19.2.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/9660f619e27ad50f17dfc7ca4dfb203e/firebase-database-19.2.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/74089b26cf6fa629f3c7cc449b384030/firebase-auth-interop-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/74089b26cf6fa629f3c7cc449b384030/firebase-auth-interop-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/bec19782a822fba6f859685c6d19275e/firebase-analytics-17.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/bec19782a822fba6f859685c6d19275e/firebase-analytics-17.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/59bd5e05af7450c8d70be6c2906fe496/play-services-measurement-api-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/59bd5e05af7450c8d70be6c2906fe496/play-services-measurement-api-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/181d61bd7873493b9d7d47a425fa4b89/firebase-iid-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/181d61bd7873493b9d7d47a425fa4b89/firebase-iid-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/6f5ba738f9986e5e29085b103b3c4b76/firebase-common-19.2.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-common:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/6f5ba738f9986e5e29085b103b3c4b76/firebase-common-19.2.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/acc240825c5679fcb15ea255fbacd044/firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/acc240825c5679fcb15ea255fbacd044/firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/5983221980d888e5695c469b953b70df/play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/5983221980d888e5695c469b953b70df/play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/4845f6702f4736d9f79a01bacea85bb7/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/4845f6702f4736d9f79a01bacea85bb7/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c6ff2d45a3a262ad31f51c579ad78d8f/play-services-measurement-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c6ff2d45a3a262ad31f51c579ad78d8f/play-services-measurement-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/e04f9835d4dd5528d678316800cc3e92/play-services-measurement-sdk-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/e04f9835d4dd5528d678316800cc3e92/play-services-measurement-sdk-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/5ac92554f28944adb6da811c74e1c263/play-services-measurement-impl-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/5ac92554f28944adb6da811c74e1c263/play-services-measurement-impl-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c050f1e7ab124a6e144b1579ef2af551/play-services-measurement-sdk-api-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c050f1e7ab124a6e144b1579ef2af551/play-services-measurement-sdk-api-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/41155a9075a471162ae9d307206083bb/play-services-measurement-base-17.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/41155a9075a471162ae9d307206083bb/play-services-measurement-base-17.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/f497e7d679a1cc52538d1a080e0a90f4/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/f497e7d679a1cc52538d1a080e0a90f4/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/57f24e24baffb42915b09711270abbf3/firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/57f24e24baffb42915b09711270abbf3/firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/e55249a9711b803c2e4efe802b679c64/play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/e55249a9711b803c2e4efe802b679c64/play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/7960c5174154070a1124e423bbdbbcb4/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/7960c5174154070a1124e423bbdbbcb4/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/9ffde239bb48937c9e7288a6eaf8d88d/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/9ffde239bb48937c9e7288a6eaf8d88d/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/cb13a6dc9cea871d0f209f160dcba1fa/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/cb13a6dc9cea871d0f209f160dcba1fa/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2e23363c4edecc269c965b31f8921798/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2e23363c4edecc269c965b31f8921798/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/0a3d4fc201d3a6e37c4665b82c335d7d/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/0a3d4fc201d3a6e37c4665b82c335d7d/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/46eb19ef679ce8463568012237a79e06/vectordrawable-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/46eb19ef679ce8463568012237a79e06/vectordrawable-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c6d6f6828dc370cfdfb91d72865ef408/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c6d6f6828dc370cfdfb91d72865ef408/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/1510786aec71034215dfb361a95a0446/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/1510786aec71034215dfb361a95a0446/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/4de6e5037732a66d6010a9d5eaa11236/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/4de6e5037732a66d6010a9d5eaa11236/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/dcd53e8b247ed3172988a560e011e9e6/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/dcd53e8b247ed3172988a560e011e9e6/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/9bad0179baa53e6ca96af1d799288576/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/9bad0179baa53e6ca96af1d799288576/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/d8d9d5eab54a93f9247c9e2ab959d371/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/d8d9d5eab54a93f9247c9e2ab959d371/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/ed993a18d23be55b3f5353904e56f228/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/ed993a18d23be55b3f5353904e56f228/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/8d24fc66d93a10151f75cb2ea8d4ce3d/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/8d24fc66d93a10151f75cb2ea8d4ce3d/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/048fba50cc9d93add658b8ed02052590/core-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/048fba50cc9d93add658b8ed02052590/core-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/d06b4b3cfcd462f4236e490fba79465b/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/d06b4b3cfcd462f4236e490fba79465b/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/0884eea3338a199017f09e18cbdc6130/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/0884eea3338a199017f09e18cbdc6130/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2de5837f16f24e1bc7ac401f5e17bd70/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2de5837f16f24e1bc7ac401f5e17bd70/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/d683a78f5e6ee00cf64e3ac12426ea6f/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/d683a78f5e6ee00cf64e3ac12426ea6f/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/6e4147730988560b1ff2b4b47ce1bf6c/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/6e4147730988560b1ff2b4b47ce1bf6c/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/6d5a840791a8571f3b7defb5230c99e3/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/6d5a840791a8571f3b7defb5230c99e3/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/e6b185287e2064610529def991253cdc/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/e6b185287e2064610529def991253cdc/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/87ce87e565a05f660fa28724c428a828/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/87ce87e565a05f660fa28724c428a828/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/73b5fb9903dcbd0c8ed93522382f47f1/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/73b5fb9903dcbd0c8ed93522382f47f1/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/6a512c86cf6f119a00a25cbc1ca36793/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/6a512c86cf6f119a00a25cbc1ca36793/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/51019a29f009ce14f965cb1103c9a6a5/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/51019a29f009ce14f965cb1103c9a6a5/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/cd0ed93f7604d7b8453a9d8e4187f1a8/jetified-fbcore-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/cd0ed93f7604d7b8453a9d8e4187f1a8/jetified-fbcore-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/a6a90b98d742be0bbb90d928cfd24f06/firebase-database-collection-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/a6a90b98d742be0bbb90d928cfd24f06/firebase-database-collection-17.0.0/AndroidManifest.xml:5:5-44
 INJECTED from /Users/freshbook/Work/otus/rn1/android/app/src/debug/AndroidManifest.xml
 INJECTED from /Users/freshbook/Work/otus/rn1/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion
@@ -365,193 +395,227 @@ uses-permission#android.permission.SYSTEM_ALERT_WINDOW
 ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/debug/AndroidManifest.xml:5:5-77
 	android:name
 		ADDED from /Users/freshbook/Work/otus/rn1/android/app/src/debug/AndroidManifest.xml:5:22-75
-uses-permission#android.permission.WAKE_LOCK
-ADDED from [:@react-native-firebase_auth] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
-MERGED from [:@react-native-firebase_database] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-firebase/database/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
-MERGED from [:@react-native-firebase_database] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-firebase/database/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
-MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/d5be9c880c5dcf51e0a8aeee072d985e/AndroidManifest.xml:24:5-68
-MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/d5be9c880c5dcf51e0a8aeee072d985e/AndroidManifest.xml:24:5-68
-MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/4dfdf7d893f915f156d1682b571d8de7/AndroidManifest.xml:24:5-68
-MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/4dfdf7d893f915f156d1682b571d8de7/AndroidManifest.xml:24:5-68
-MERGED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/543474181d8181afd425a872cd30ca73/AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/543474181d8181afd425a872cd30ca73/AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2060154bf4d32241202420a8fabb4523/AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2060154bf4d32241202420a8fabb4523/AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/46ad4d2ba83947d2d442312f8f41e551/AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/46ad4d2ba83947d2d442312f8f41e551/AndroidManifest.xml:25:5-68
-	android:name
-		ADDED from [:@react-native-firebase_auth] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-65
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [:@react-native-firebase_auth] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
+ADDED from [:@react-native-community_netinfo] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-79
+MERGED from [:@react-native-firebase_auth] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
+MERGED from [:@react-native-firebase_auth] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
 MERGED from [:@react-native-firebase_database] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-firebase/database/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
 MERGED from [:@react-native-firebase_database] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-firebase/database/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
-MERGED from [:@react-native-community_netinfo] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-79
-MERGED from [:@react-native-community_netinfo] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-79
-MERGED from [com.google.firebase:firebase-database:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/647714b67fee534e9f5f4ba218f43363/AndroidManifest.xml:25:5-79
-MERGED from [com.google.firebase:firebase-database:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/647714b67fee534e9f5f4ba218f43363/AndroidManifest.xml:25:5-79
-MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/d5be9c880c5dcf51e0a8aeee072d985e/AndroidManifest.xml:23:5-79
-MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/d5be9c880c5dcf51e0a8aeee072d985e/AndroidManifest.xml:23:5-79
-MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/4dfdf7d893f915f156d1682b571d8de7/AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/4dfdf7d893f915f156d1682b571d8de7/AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/543474181d8181afd425a872cd30ca73/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/543474181d8181afd425a872cd30ca73/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2060154bf4d32241202420a8fabb4523/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2060154bf4d32241202420a8fabb4523/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/46ad4d2ba83947d2d442312f8f41e551/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/46ad4d2ba83947d2d442312f8f41e551/AndroidManifest.xml:24:5-79
+MERGED from [:@react-native-firebase_storage] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
+MERGED from [:@react-native-firebase_storage] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-storage:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2b9c704c37be12b2190dabbedc627865/firebase-storage-19.1.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-storage:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2b9c704c37be12b2190dabbedc627865/firebase-storage-19.1.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-database:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/9660f619e27ad50f17dfc7ca4dfb203e/firebase-database-19.2.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-database:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/9660f619e27ad50f17dfc7ca4dfb203e/firebase-database-19.2.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/59bd5e05af7450c8d70be6c2906fe496/play-services-measurement-api-17.2.1/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/59bd5e05af7450c8d70be6c2906fe496/play-services-measurement-api-17.2.1/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/181d61bd7873493b9d7d47a425fa4b89/firebase-iid-19.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/181d61bd7873493b9d7d47a425fa4b89/firebase-iid-19.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c6ff2d45a3a262ad31f51c579ad78d8f/play-services-measurement-17.2.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c6ff2d45a3a262ad31f51c579ad78d8f/play-services-measurement-17.2.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/5ac92554f28944adb6da811c74e1c263/play-services-measurement-impl-17.2.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/5ac92554f28944adb6da811c74e1c263/play-services-measurement-impl-17.2.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c050f1e7ab124a6e144b1579ef2af551/play-services-measurement-sdk-api-17.2.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c050f1e7ab124a6e144b1579ef2af551/play-services-measurement-sdk-api-17.2.1/AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from [:@react-native-firebase_auth] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-76
+		ADDED from [:@react-native-community_netinfo] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-76
 uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from [:@react-native-community_netinfo] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-76
 	android:name
 		ADDED from [:@react-native-community_netinfo] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:22-73
-activity#com.google.firebase.auth.internal.FederatedSignInActivity
-ADDED from [com.google.firebase:firebase-auth:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2907445c17d10b3c91ea6d47aad4a820/AndroidManifest.xml:24:9-31:50
-	android:excludeFromRecents
-		ADDED from [com.google.firebase:firebase-auth:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2907445c17d10b3c91ea6d47aad4a820/AndroidManifest.xml:26:13-46
-	android:launchMode
-		ADDED from [com.google.firebase:firebase-auth:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2907445c17d10b3c91ea6d47aad4a820/AndroidManifest.xml:28:13-44
-	android:exported
-		ADDED from [com.google.firebase:firebase-auth:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2907445c17d10b3c91ea6d47aad4a820/AndroidManifest.xml:27:13-36
-	android:permission
-		ADDED from [com.google.firebase:firebase-auth:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2907445c17d10b3c91ea6d47aad4a820/AndroidManifest.xml:29:13-102
-	android:theme
-		ADDED from [com.google.firebase:firebase-auth:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2907445c17d10b3c91ea6d47aad4a820/AndroidManifest.xml:30:13-72
-	tools:replace
-		ADDED from [com.google.firebase:firebase-auth:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2907445c17d10b3c91ea6d47aad4a820/AndroidManifest.xml:31:13-47
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:@react-native-firebase_auth] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+MERGED from [:@react-native-firebase_database] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-firebase/database/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+MERGED from [:@react-native-firebase_database] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-firebase/database/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+MERGED from [:@react-native-firebase_storage] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+MERGED from [:@react-native-firebase_storage] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/59bd5e05af7450c8d70be6c2906fe496/play-services-measurement-api-17.2.1/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/59bd5e05af7450c8d70be6c2906fe496/play-services-measurement-api-17.2.1/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/181d61bd7873493b9d7d47a425fa4b89/firebase-iid-19.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/181d61bd7873493b9d7d47a425fa4b89/firebase-iid-19.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c6ff2d45a3a262ad31f51c579ad78d8f/play-services-measurement-17.2.1/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c6ff2d45a3a262ad31f51c579ad78d8f/play-services-measurement-17.2.1/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/5ac92554f28944adb6da811c74e1c263/play-services-measurement-impl-17.2.1/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/5ac92554f28944adb6da811c74e1c263/play-services-measurement-impl-17.2.1/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c050f1e7ab124a6e144b1579ef2af551/play-services-measurement-sdk-api-17.2.1/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c050f1e7ab124a6e144b1579ef2af551/play-services-measurement-sdk-api-17.2.1/AndroidManifest.xml:25:5-68
 	android:name
-		ADDED from [com.google.firebase:firebase-auth:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2907445c17d10b3c91ea6d47aad4a820/AndroidManifest.xml:25:13-85
-service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [com.google.firebase:firebase-auth:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2907445c17d10b3c91ea6d47aad4a820/AndroidManifest.xml:33:9-39:19
-MERGED from [com.google.firebase:firebase-database:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/647714b67fee534e9f5f4ba218f43363/AndroidManifest.xml:29:9-35:19
-MERGED from [com.google.firebase:firebase-database:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/647714b67fee534e9f5f4ba218f43363/AndroidManifest.xml:29:9-35:19
-MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/d5be9c880c5dcf51e0a8aeee072d985e/AndroidManifest.xml:27:9-33:19
-MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/d5be9c880c5dcf51e0a8aeee072d985e/AndroidManifest.xml:27:9-33:19
-MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/4dfdf7d893f915f156d1682b571d8de7/AndroidManifest.xml:29:9-35:19
-MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/4dfdf7d893f915f156d1682b571d8de7/AndroidManifest.xml:29:9-35:19
-MERGED from [com.google.firebase:firebase-common:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/35de7cf27500bbb2993eb00ed9168c2f/AndroidManifest.xml:13:9-17:35
-MERGED from [com.google.firebase:firebase-common:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/35de7cf27500bbb2993eb00ed9168c2f/AndroidManifest.xml:13:9-17:35
-	android:exported
-		ADDED from [com.google.firebase:firebase-auth:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2907445c17d10b3c91ea6d47aad4a820/AndroidManifest.xml:35:13-37
-	tools:targetApi
-		ADDED from [com.google.firebase:firebase-common:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/35de7cf27500bbb2993eb00ed9168c2f/AndroidManifest.xml:17:13-32
-	android:directBootAware
-		ADDED from [com.google.firebase:firebase-common:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/35de7cf27500bbb2993eb00ed9168c2f/AndroidManifest.xml:15:13-43
+		ADDED from [:@react-native-firebase_auth] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-firebase/auth/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-65
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:@react-native-firebase_storage] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-80
 	android:name
-		ADDED from [com.google.firebase:firebase-auth:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2907445c17d10b3c91ea6d47aad4a820/AndroidManifest.xml:34:13-84
-meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
-ADDED from [com.google.firebase:firebase-auth:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2907445c17d10b3c91ea6d47aad4a820/AndroidManifest.xml:36:13-38:85
-	android:value
-		ADDED from [com.google.firebase:firebase-auth:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2907445c17d10b3c91ea6d47aad4a820/AndroidManifest.xml:38:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2907445c17d10b3c91ea6d47aad4a820/AndroidManifest.xml:37:17-109
-meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
-ADDED from [com.google.firebase:firebase-database:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/647714b67fee534e9f5f4ba218f43363/AndroidManifest.xml:32:13-34:85
-	android:value
-		ADDED from [com.google.firebase:firebase-database:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/647714b67fee534e9f5f4ba218f43363/AndroidManifest.xml:34:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-database:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/647714b67fee534e9f5f4ba218f43363/AndroidManifest.xml:33:17-109
-meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
-ADDED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/d5be9c880c5dcf51e0a8aeee072d985e/AndroidManifest.xml:30:13-32:85
-	android:value
-		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/d5be9c880c5dcf51e0a8aeee072d985e/AndroidManifest.xml:32:17-82
-	android:name
-		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/d5be9c880c5dcf51e0a8aeee072d985e/AndroidManifest.xml:31:17-139
-uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/4dfdf7d893f915f156d1682b571d8de7/AndroidManifest.xml:26:5-82
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/4dfdf7d893f915f156d1682b571d8de7/AndroidManifest.xml:26:22-79
-meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
-ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/4dfdf7d893f915f156d1682b571d8de7/AndroidManifest.xml:32:13-34:85
-	android:value
-		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/4dfdf7d893f915f156d1682b571d8de7/AndroidManifest.xml:34:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/4dfdf7d893f915f156d1682b571d8de7/AndroidManifest.xml:33:17-96
-receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/4dfdf7d893f915f156d1682b571d8de7/AndroidManifest.xml:37:9-44:20
-	android:exported
-		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/4dfdf7d893f915f156d1682b571d8de7/AndroidManifest.xml:39:13-36
-	android:permission
-		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/4dfdf7d893f915f156d1682b571d8de7/AndroidManifest.xml:40:13-73
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/4dfdf7d893f915f156d1682b571d8de7/AndroidManifest.xml:38:13-78
-intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/4dfdf7d893f915f156d1682b571d8de7/AndroidManifest.xml:41:13-43:29
-action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/4dfdf7d893f915f156d1682b571d8de7/AndroidManifest.xml:42:17-81
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/4dfdf7d893f915f156d1682b571d8de7/AndroidManifest.xml:42:25-78
-provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/35de7cf27500bbb2993eb00ed9168c2f/AndroidManifest.xml:19:9-23:39
+		ADDED from [:@react-native-firebase_storage] /Users/freshbook/Work/otus/rn1/node_modules/@react-native-firebase/storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:22-77
+provider#com.imagepicker.FileProvider
+ADDED from [:react-native-image-picker] /Users/freshbook/Work/otus/rn1/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-18:20
+	android:grantUriPermissions
+		ADDED from [:react-native-image-picker] /Users/freshbook/Work/otus/rn1/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-47
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/35de7cf27500bbb2993eb00ed9168c2f/AndroidManifest.xml:21:13-72
+		ADDED from [:react-native-image-picker] /Users/freshbook/Work/otus/rn1/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-60
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/35de7cf27500bbb2993eb00ed9168c2f/AndroidManifest.xml:22:13-37
-	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/35de7cf27500bbb2993eb00ed9168c2f/AndroidManifest.xml:23:13-36
+		ADDED from [:react-native-image-picker] /Users/freshbook/Work/otus/rn1/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-37
 	android:name
-		ADDED from [com.google.firebase:firebase-common:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/35de7cf27500bbb2993eb00ed9168c2f/AndroidManifest.xml:20:13-77
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/96b21752b36d38cab6a2397528308a25/AndroidManifest.xml:23:9-26:75
+		ADDED from [:react-native-image-picker] /Users/freshbook/Work/otus/rn1/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-56
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-image-picker] /Users/freshbook/Work/otus/rn1/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:58
+	android:resource
+		ADDED from [:react-native-image-picker] /Users/freshbook/Work/otus/rn1/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-55
+	android:name
+		ADDED from [:react-native-image-picker] /Users/freshbook/Work/otus/rn1/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/7a4b69d8a41b28e39d8367edc089c630/firebase-auth-19.1.0/AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/7a4b69d8a41b28e39d8367edc089c630/firebase-auth-19.1.0/AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/7a4b69d8a41b28e39d8367edc089c630/firebase-auth-19.1.0/AndroidManifest.xml:28:13-44
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/96b21752b36d38cab6a2397528308a25/AndroidManifest.xml:25:13-37
+		ADDED from [com.google.firebase:firebase-auth:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/7a4b69d8a41b28e39d8367edc089c630/firebase-auth-19.1.0/AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/7a4b69d8a41b28e39d8367edc089c630/firebase-auth-19.1.0/AndroidManifest.xml:29:13-102
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/96b21752b36d38cab6a2397528308a25/AndroidManifest.xml:26:13-72
+		ADDED from [com.google.firebase:firebase-auth:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/7a4b69d8a41b28e39d8367edc089c630/firebase-auth-19.1.0/AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/7a4b69d8a41b28e39d8367edc089c630/firebase-auth-19.1.0/AndroidManifest.xml:31:13-47
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/96b21752b36d38cab6a2397528308a25/AndroidManifest.xml:24:13-79
-uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
-ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/543474181d8181afd425a872cd30ca73/AndroidManifest.xml:26:5-110
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2060154bf4d32241202420a8fabb4523/AndroidManifest.xml:26:5-110
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2060154bf4d32241202420a8fabb4523/AndroidManifest.xml:26:5-110
-	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/543474181d8181afd425a872cd30ca73/AndroidManifest.xml:26:22-107
-receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/543474181d8181afd425a872cd30ca73/AndroidManifest.xml:29:9-33:20
-	android:enabled
-		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/543474181d8181afd425a872cd30ca73/AndroidManifest.xml:31:13-35
+		ADDED from [com.google.firebase:firebase-auth:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/7a4b69d8a41b28e39d8367edc089c630/firebase-auth-19.1.0/AndroidManifest.xml:25:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/7a4b69d8a41b28e39d8367edc089c630/firebase-auth-19.1.0/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-storage:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2b9c704c37be12b2190dabbedc627865/firebase-storage-19.1.0/AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-storage:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2b9c704c37be12b2190dabbedc627865/firebase-storage-19.1.0/AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-database:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/9660f619e27ad50f17dfc7ca4dfb203e/firebase-database-19.2.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-database:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/9660f619e27ad50f17dfc7ca4dfb203e/firebase-database-19.2.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/59bd5e05af7450c8d70be6c2906fe496/play-services-measurement-api-17.2.1/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/59bd5e05af7450c8d70be6c2906fe496/play-services-measurement-api-17.2.1/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/181d61bd7873493b9d7d47a425fa4b89/firebase-iid-19.0.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/181d61bd7873493b9d7d47a425fa4b89/firebase-iid-19.0.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-common:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/6f5ba738f9986e5e29085b103b3c4b76/firebase-common-19.2.0/AndroidManifest.xml:13:9-17:35
+MERGED from [com.google.firebase:firebase-common:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/6f5ba738f9986e5e29085b103b3c4b76/firebase-common-19.2.0/AndroidManifest.xml:13:9-17:35
 	android:exported
-		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/543474181d8181afd425a872cd30ca73/AndroidManifest.xml:32:13-37
+		ADDED from [com.google.firebase:firebase-auth:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/7a4b69d8a41b28e39d8367edc089c630/firebase-auth-19.1.0/AndroidManifest.xml:35:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/6f5ba738f9986e5e29085b103b3c4b76/firebase-common-19.2.0/AndroidManifest.xml:17:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/6f5ba738f9986e5e29085b103b3c4b76/firebase-common-19.2.0/AndroidManifest.xml:15:13-43
 	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/543474181d8181afd425a872cd30ca73/AndroidManifest.xml:30:13-85
-receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
-ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/543474181d8181afd425a872cd30ca73/AndroidManifest.xml:34:9-42:20
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2060154bf4d32241202420a8fabb4523/AndroidManifest.xml:29:9-37:20
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2060154bf4d32241202420a8fabb4523/AndroidManifest.xml:29:9-37:20
-	android:enabled
-		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/543474181d8181afd425a872cd30ca73/AndroidManifest.xml:36:13-35
-	android:exported
-		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/543474181d8181afd425a872cd30ca73/AndroidManifest.xml:37:13-36
-	android:permission
-		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/543474181d8181afd425a872cd30ca73/AndroidManifest.xml:38:13-69
-	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/543474181d8181afd425a872cd30ca73/AndroidManifest.xml:35:13-100
-intent-filter#action:name:com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/543474181d8181afd425a872cd30ca73/AndroidManifest.xml:39:13-41:29
-action#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/543474181d8181afd425a872cd30ca73/AndroidManifest.xml:40:17-79
-	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/543474181d8181afd425a872cd30ca73/AndroidManifest.xml:40:25-76
-service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/543474181d8181afd425a872cd30ca73/AndroidManifest.xml:44:9-47:40
-	android:enabled
-		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/543474181d8181afd425a872cd30ca73/AndroidManifest.xml:46:13-35
-	android:exported
-		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/543474181d8181afd425a872cd30ca73/AndroidManifest.xml:47:13-37
-	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/543474181d8181afd425a872cd30ca73/AndroidManifest.xml:45:13-84
-service#com.google.android.gms.measurement.AppMeasurementJobService
-ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/543474181d8181afd425a872cd30ca73/AndroidManifest.xml:48:9-52:72
-	android:enabled
-		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/543474181d8181afd425a872cd30ca73/AndroidManifest.xml:50:13-35
-	android:exported
-		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/543474181d8181afd425a872cd30ca73/AndroidManifest.xml:51:13-37
-	android:permission
-		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/543474181d8181afd425a872cd30ca73/AndroidManifest.xml:52:13-69
-	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/543474181d8181afd425a872cd30ca73/AndroidManifest.xml:49:13-87
-meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/1a586bd3cf9b9a33a1f115d7495288dd/AndroidManifest.xml:23:9-25:69
+		ADDED from [com.google.firebase:firebase-auth:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/7a4b69d8a41b28e39d8367edc089c630/firebase-auth-19.1.0/AndroidManifest.xml:34:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/7a4b69d8a41b28e39d8367edc089c630/firebase-auth-19.1.0/AndroidManifest.xml:36:13-38:85
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/1a586bd3cf9b9a33a1f115d7495288dd/AndroidManifest.xml:25:13-66
+		ADDED from [com.google.firebase:firebase-auth:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/7a4b69d8a41b28e39d8367edc089c630/firebase-auth-19.1.0/AndroidManifest.xml:38:17-82
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/1a586bd3cf9b9a33a1f115d7495288dd/AndroidManifest.xml:24:13-58
+		ADDED from [com.google.firebase:firebase-auth:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/7a4b69d8a41b28e39d8367edc089c630/firebase-auth-19.1.0/AndroidManifest.xml:37:17-109
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2b9c704c37be12b2190dabbedc627865/firebase-storage-19.1.0/AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2b9c704c37be12b2190dabbedc627865/firebase-storage-19.1.0/AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:19.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/2b9c704c37be12b2190dabbedc627865/firebase-storage-19.1.0/AndroidManifest.xml:34:17-107
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/9660f619e27ad50f17dfc7ca4dfb203e/firebase-database-19.2.0/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/9660f619e27ad50f17dfc7ca4dfb203e/firebase-database-19.2.0/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/9660f619e27ad50f17dfc7ca4dfb203e/firebase-database-19.2.0/AndroidManifest.xml:33:17-109
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/59bd5e05af7450c8d70be6c2906fe496/play-services-measurement-api-17.2.1/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/59bd5e05af7450c8d70be6c2906fe496/play-services-measurement-api-17.2.1/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/59bd5e05af7450c8d70be6c2906fe496/play-services-measurement-api-17.2.1/AndroidManifest.xml:31:17-139
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/181d61bd7873493b9d7d47a425fa4b89/firebase-iid-19.0.0/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/181d61bd7873493b9d7d47a425fa4b89/firebase-iid-19.0.0/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/181d61bd7873493b9d7d47a425fa4b89/firebase-iid-19.0.0/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/181d61bd7873493b9d7d47a425fa4b89/firebase-iid-19.0.0/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/181d61bd7873493b9d7d47a425fa4b89/firebase-iid-19.0.0/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/181d61bd7873493b9d7d47a425fa4b89/firebase-iid-19.0.0/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/181d61bd7873493b9d7d47a425fa4b89/firebase-iid-19.0.0/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/181d61bd7873493b9d7d47a425fa4b89/firebase-iid-19.0.0/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/181d61bd7873493b9d7d47a425fa4b89/firebase-iid-19.0.0/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/181d61bd7873493b9d7d47a425fa4b89/firebase-iid-19.0.0/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/181d61bd7873493b9d7d47a425fa4b89/firebase-iid-19.0.0/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/181d61bd7873493b9d7d47a425fa4b89/firebase-iid-19.0.0/AndroidManifest.xml:42:25-78
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/6f5ba738f9986e5e29085b103b3c4b76/firebase-common-19.2.0/AndroidManifest.xml:19:9-23:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/6f5ba738f9986e5e29085b103b3c4b76/firebase-common-19.2.0/AndroidManifest.xml:21:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/6f5ba738f9986e5e29085b103b3c4b76/firebase-common-19.2.0/AndroidManifest.xml:22:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/6f5ba738f9986e5e29085b103b3c4b76/firebase-common-19.2.0/AndroidManifest.xml:23:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.2.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/6f5ba738f9986e5e29085b103b3c4b76/firebase-common-19.2.0/AndroidManifest.xml:20:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/5983221980d888e5695c469b953b70df/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/5983221980d888e5695c469b953b70df/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/5983221980d888e5695c469b953b70df/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/5983221980d888e5695c469b953b70df/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c6ff2d45a3a262ad31f51c579ad78d8f/play-services-measurement-17.2.1/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/5ac92554f28944adb6da811c74e1c263/play-services-measurement-impl-17.2.1/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/5ac92554f28944adb6da811c74e1c263/play-services-measurement-impl-17.2.1/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c6ff2d45a3a262ad31f51c579ad78d8f/play-services-measurement-17.2.1/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c6ff2d45a3a262ad31f51c579ad78d8f/play-services-measurement-17.2.1/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c6ff2d45a3a262ad31f51c579ad78d8f/play-services-measurement-17.2.1/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c6ff2d45a3a262ad31f51c579ad78d8f/play-services-measurement-17.2.1/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c6ff2d45a3a262ad31f51c579ad78d8f/play-services-measurement-17.2.1/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c6ff2d45a3a262ad31f51c579ad78d8f/play-services-measurement-17.2.1/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/5ac92554f28944adb6da811c74e1c263/play-services-measurement-impl-17.2.1/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/5ac92554f28944adb6da811c74e1c263/play-services-measurement-impl-17.2.1/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c6ff2d45a3a262ad31f51c579ad78d8f/play-services-measurement-17.2.1/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c6ff2d45a3a262ad31f51c579ad78d8f/play-services-measurement-17.2.1/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c6ff2d45a3a262ad31f51c579ad78d8f/play-services-measurement-17.2.1/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c6ff2d45a3a262ad31f51c579ad78d8f/play-services-measurement-17.2.1/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c6ff2d45a3a262ad31f51c579ad78d8f/play-services-measurement-17.2.1/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c6ff2d45a3a262ad31f51c579ad78d8f/play-services-measurement-17.2.1/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c6ff2d45a3a262ad31f51c579ad78d8f/play-services-measurement-17.2.1/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c6ff2d45a3a262ad31f51c579ad78d8f/play-services-measurement-17.2.1/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c6ff2d45a3a262ad31f51c579ad78d8f/play-services-measurement-17.2.1/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c6ff2d45a3a262ad31f51c579ad78d8f/play-services-measurement-17.2.1/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c6ff2d45a3a262ad31f51c579ad78d8f/play-services-measurement-17.2.1/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c6ff2d45a3a262ad31f51c579ad78d8f/play-services-measurement-17.2.1/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c6ff2d45a3a262ad31f51c579ad78d8f/play-services-measurement-17.2.1/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c6ff2d45a3a262ad31f51c579ad78d8f/play-services-measurement-17.2.1/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c6ff2d45a3a262ad31f51c579ad78d8f/play-services-measurement-17.2.1/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/c6ff2d45a3a262ad31f51c579ad78d8f/play-services-measurement-17.2.1/AndroidManifest.xml:49:13-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/7960c5174154070a1124e423bbdbbcb4/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/7960c5174154070a1124e423bbdbbcb4/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/freshbook/.gradle/caches/transforms-2/files-2.1/7960c5174154070a1124e423bbdbbcb4/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58

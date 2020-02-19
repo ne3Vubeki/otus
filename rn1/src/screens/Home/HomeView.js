@@ -49,15 +49,17 @@ export class HomeView extends Component {
             }
         };
         return (
-            <>
+            <View testID="home">
                 <MyHeader
                     title='Guest Book'
                     rightHeader={
                         !this.props.user || !this.props.user.avatar ?
                             <Avatar rounded icon={{name: 'person'}}
+                                    testID="avatar_home"
                                     size='small'
                                     onPress={() => this.props.navigation.navigate('Profile')}/> :
                             <Avatar rounded source={{uri: this.props.user.avatar}}
+                                    testID="avatar_home"
                                     size='small'
                                     onPress={() => this.props.navigation.navigate('Profile')}/>
                     }
@@ -66,8 +68,10 @@ export class HomeView extends Component {
                     <ScrollView keyboardShouldPersistTaps='always'>
                         <View style={styles.form}>
                             <Input ref={this._input} placeholder='Write Name Guest'
+                                   testID="input_new_guest_home"
                                    onChangeText={(text) => this.handleInput(text)}/>
                             <Button containerStyle={styles.button} title="Add New Guest"
+                                    testID="button_new_guest_home"
                                     onPress={() => this.handleAdd()}/>
                             <Filter guests={this.props.guests} status={this.props.status}
                                     filterStatus={this.props.filterStatus}/>
@@ -87,7 +91,7 @@ export class HomeView extends Component {
                         </>
                     </ScrollView>
                 </KeyboardAvoidingView>
-            </>
+            </View>
         );
     }
 }

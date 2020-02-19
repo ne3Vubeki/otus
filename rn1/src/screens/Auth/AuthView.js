@@ -41,25 +41,26 @@ export class AuthView extends Component {
             <>
                 <KeyboardAvoidingView behavior='position'>
                     <ScrollView keyboardShouldPersistTaps='always'>
-                        <View style={styles.view}>
-                            <View>
+                        <View style={styles.view} testID="auth">
                                 <Input
+                                    testID="login"
                                     containerStyle={styles.input}
                                     placeholder='Email'
                                     value={this.login}
                                     onChangeText={(text) => this.handleMail(text)}
                                 />
                                 <Input
+                                    testID="password"
                                     placeholder='Password'
                                     value={this.password}
                                     onChangeText={(text) => this.handlePassword(text)}
                                 />
                                 <Button
+                                    testID="submit_button"
                                     containerStyle={styles.button}
                                     title="LOGIN"
                                     onPress={() => this.handleLogin()}
                                 />
-                            </View>
                         </View>
                     </ScrollView>
                 </KeyboardAvoidingView>

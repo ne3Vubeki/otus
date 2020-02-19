@@ -14,24 +14,30 @@ import java.util.ArrayList;
 import com.rn1.BuildConfig;
 import com.rn1.R;
 
+// @react-native-community/async-storage
+import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
+// @react-native-community/masked-view
+import org.reactnative.maskedview.RNCMaskedViewPackage;
+// @react-native-community/netinfo
+import com.reactnativecommunity.netinfo.NetInfoPackage;
+// @react-native-community/checkbox
+import com.reactnativecommunity.checkbox.ReactCheckBoxPackage;
 // @react-native-firebase/app
 import io.invertase.firebase.app.ReactNativeFirebaseAppPackage;
 // @react-native-firebase/auth
 import io.invertase.firebase.auth.ReactNativeFirebaseAuthPackage;
 // @react-native-firebase/database
 import io.invertase.firebase.database.ReactNativeFirebaseDatabasePackage;
-// @react-native-community/masked-view
-import org.reactnative.maskedview.RNCMaskedViewPackage;
-// @react-native-community/async-storage
-import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
-// @react-native-community/netinfo
-import com.reactnativecommunity.netinfo.NetInfoPackage;
-// react-native-vector-icons
-import com.oblador.vectoricons.VectorIconsPackage;
+// @react-native-firebase/storage
+import io.invertase.firebase.storage.ReactNativeFirebaseStoragePackage;
 // react-native-gesture-handler
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
+// react-native-image-picker
+import com.imagepicker.ImagePickerPackage;
 // react-native-safe-area-context
 import com.th3rdwave.safeareacontext.SafeAreaContextPackage;
+// react-native-vector-icons
+import com.oblador.vectoricons.VectorIconsPackage;
 
 public class PackageList {
   private Application application;
@@ -77,15 +83,18 @@ public class PackageList {
   public ArrayList<ReactPackage> getPackages() {
     return new ArrayList<>(Arrays.<ReactPackage>asList(
       new MainReactPackage(mConfig),
+      new AsyncStoragePackage(),
+      new RNCMaskedViewPackage(),
+      new NetInfoPackage(),
+      new ReactCheckBoxPackage(),
       new ReactNativeFirebaseAppPackage(),
       new ReactNativeFirebaseAuthPackage(),
       new ReactNativeFirebaseDatabasePackage(),
-      new RNCMaskedViewPackage(),
-      new AsyncStoragePackage(),
-      new NetInfoPackage(),
-      new VectorIconsPackage(),
+      new ReactNativeFirebaseStoragePackage(),
       new RNGestureHandlerPackage(),
-      new SafeAreaContextPackage()
+      new ImagePickerPackage(),
+      new SafeAreaContextPackage(),
+      new VectorIconsPackage()
     ));
   }
 }
