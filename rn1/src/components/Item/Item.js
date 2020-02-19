@@ -36,12 +36,14 @@ export const Item = ({guest, navigation, removeGuest, changeGuest}) => {
             {
                 <ListItem onLongPress={changeView}
                           onPress={handlePress}
+                          testID={`list_item_${guest.name}`}
                           title={
                               <View style={styles.inline}>
                                   {
                                       !guest.open ?
-                                          <Text style={styles.text}>{guest.name}</Text> :
+                                          <Text testID={`item_name_${guest.name}`} style={styles.text}>{guest.name}</Text> :
                                           <Input autoFocus={true}
+                                                 testID={`item_input_${guest.name}`}
                                                  defaultValue={guest.name}
                                                  onChangeText={handleInput}
                                                  onBlur={handleChange}/>
@@ -51,10 +53,12 @@ export const Item = ({guest, navigation, removeGuest, changeGuest}) => {
                                           <>
                                               <CheckBox title={'Pair'}
                                                         style={{flex:2}}
+                                                        testID={`item_checkbox_${guest.name}`}
                                                         checked={guest.pair}
                                                         onPress={handleCheck}/>
                                               <Button title={'X'}
                                                       raised={false}
+                                                      testID={`item_button_${guest.name}`}
                                                       style={{flex:1}}
                                                       onPress={handleRemove}/>
                                           </> : null

@@ -4,7 +4,7 @@
             "outputFile": "/Users/freshbook/Work/otus/rn1/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lo/values-lo.xml",
             "map": [
                 {
-                    "source": "/Users/freshbook/.gradle/caches/transforms-2/files-2.1/5b3749737e980b3b39210faf4e89d2f2/res/values-lo/values-lo.xml",
+                    "source": "/Users/freshbook/.gradle/caches/transforms-2/files-2.1/048fba50cc9d93add658b8ed02052590/core-1.0.1/res/values-lo/values-lo.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/freshbook/.gradle/caches/transforms-2/files-2.1/96b21752b36d38cab6a2397528308a25/res/values-lo/values.xml",
+                    "source": "/Users/freshbook/.gradle/caches/transforms-2/files-2.1/5983221980d888e5695c469b953b70df/play-services-base-17.1.0/res/values-lo/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "/Users/freshbook/.gradle/caches/transforms-2/files-2.1/e5af6742f4c5c38945215ea7409cdb2d/res/values-lo/values-lo.xml",
+                    "source": "/Users/freshbook/.gradle/caches/transforms-2/files-2.1/41c9a67c18533a1ac5caa60e1862d997/appcompat-1.0.2/res/values-lo/values-lo.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -55,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "/Users/freshbook/.gradle/caches/transforms-2/files-2.1/1a586bd3cf9b9a33a1f115d7495288dd/res/values-lo/values.xml",
+                    "source": "/Users/freshbook/.gradle/caches/transforms-2/files-2.1/7960c5174154070a1124e423bbdbbcb4/jetified-play-services-basement-17.0.0/res/values-lo/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

@@ -26,7 +26,6 @@ DerivedData
 build/
 .idea
 .gradle
-local.properties
 *.iml
 
 # node.js
@@ -38,7 +37,6 @@ yarn-error.log
 # BUCK
 buck-out/
 \.buckd/
-*.keystore
 !debug.keystore
 
 # fastlane

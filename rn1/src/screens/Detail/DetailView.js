@@ -23,7 +23,7 @@ export class DetailView extends Component {
     }
 
     handleChange(text) {
-        this.setState({commant: text, isChange: true});
+        this.setState({comment: text, isChange: true});
     }
 
     handleSave() {
@@ -47,6 +47,7 @@ export class DetailView extends Component {
                     <ScrollView keyboardShouldPersistTaps='always'>
                         <View style={styles.textAreaContainer}>
                             <TextInput
+                                testID='textinput_desc'
                                 style={styles.textArea}
                                 underlineColorAndroid="transparent"
                                 placeholder="Comment"
@@ -57,6 +58,7 @@ export class DetailView extends Component {
                                 onChangeText={($event) => this.handleChange($event)}
                             />
                             <Button style={styles.button}
+                                    testID='text_save'
                                     title="Save Comment"
                                     disabled={!isChange}
                                     onPress={() => this.handleSave()}/>

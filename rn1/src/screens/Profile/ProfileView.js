@@ -40,8 +40,6 @@ export class ProfileView extends Component {
     }
 
     handleEditAvatar(response) {
-        console.log('handleEditAvatar', this);
-        console.log('response', response);
         this.user.avatar = response.uri;
         this.setState({ isChangeAvatar: true })
     }
